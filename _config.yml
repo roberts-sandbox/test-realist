@@ -1,3 +1,2 @@
 future: false
 exclude: vendor
-paginate: 10
