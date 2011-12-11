@@ -1,3 +1,4 @@
 source: ./src
 destination: ./src/_site
 future: false
+pygments: true

@@ -1,0 +1,60 @@
+body {
+	font-family: Gill Sans;
+	font-size: 108%;
+}
+
+p, div.highlight {
+	margin-bottom: 10px;
+}
+
+pre {
+	font-family: Monaco;
+}
+
+.main {
+	margin: auto;
+	width: 910px;
+}
+
+.main p {
+	clear: both;
+}
+
+.highlight {
+	margin-right: 10px;
+	background-color: #111;
+	float: left;
+	color: white;
+}
+
+.highlight pre {
+	padding: 0.5em 1em 0 1em;
+}
+
+.k {
+	color: tan;
+}
+
+.nc {
+	color: orange;
+}
+
+.nb {
+	color: salmon;
+}
+
+.nf {
+	color: yellow;
+}
+
+.bp {
+	color: thistle;
+}
+
+.s {
+	color: green;
+}
+
+.c {
+	color: gray;
+}
