@@ -1,5 +1,5 @@
 body {
-	font-family: Georgia;
+	font-family: Verdana;
 }
 
 h1, h2, h3, h4 {
@@ -14,12 +14,29 @@ h2 {
 	font-size: 138.5%;
 }
 
+h2 a {
+	text-decoration: none;
+}
+
+h2 a:visited {
+	text-decoration: none;
+	color: #340f56;
+}
+
+p {
+	font-size: 108%;
+}
+
+nav.post-nav {
+  height: 18px;
+}
+
 p, div.highlight {
 	margin-bottom: 10px;
 }
 
-pre {
-	font-family: Monaco;
+pre, code {
+	font-family: Monaco, Consolas, monospace;
 }
 
 .main {
@@ -27,9 +44,9 @@ pre {
 	width: 910px;
 }
 
-.main p {
+.main .content,
+.main .content p {
 	clear: both;
-	font-size: 123.1%;
 }
 
 .highlight {
@@ -41,6 +58,11 @@ pre {
 
 .highlight pre {
 	padding: 0.5em 1em 0 1em;
+	font-size: 100%;
+}
+
+.highlight pre code {
+	line-height: 130%;
 }
 
 .k {
@@ -80,12 +102,31 @@ pre {
 
 .post-summary h2 {
 	margin-bottom: 0;
+  padding: 0 8px 0 8px;
 }
 
 .post-summary .date {
 	font-size: 77%;
+  padding: 0 8px 0 8px;
+  font-weight: bold;
+}
+
+.post-summary p {
+  padding: 0 8px 0 8px;
 }
 
 #dsq-pagination, #dsq-account-dropdown {
 	display: none;
+}
+
+.disqus-spacer {
+	margin-bottom: 24px;
+}
+
+.prev-post {
+  float: left;
+}
+
+.next-post {
+  float: right;
 }
