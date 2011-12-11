@@ -85,3 +85,7 @@ pre {
 .post-summary .date {
 	font-size: 77%;
 }
+
+#dsq-pagination, #dsq-account-dropdown {
+	display: none;
+}
