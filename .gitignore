@@ -1,3 +1,5 @@
 .bundle
 vendor/bundle/ruby
 .DS_Store
+_site
+bin

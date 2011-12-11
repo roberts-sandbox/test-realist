@@ -1,6 +1,17 @@
 body {
-	font-family: Gill Sans;
-	font-size: 108%;
+	font-family: Georgia;
+}
+
+h1, h2, h3, h4 {
+	font-family: Verdana;
+}
+
+h1 {
+	font-size: 153.9%;
+}
+
+h2 {
+	font-size: 138.5%;
 }
 
 p, div.highlight {
@@ -18,6 +29,7 @@ pre {
 
 .main p {
 	clear: both;
+	font-size: 123.1%;
 }
 
 .highlight {
@@ -59,3 +71,17 @@ pre {
 	color: gray;
 }
 
+.main .top li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.post-summary h2 {
+	margin-bottom: 0;
+}
+
+.post-summary .date {
+	font-size: 77%;
+}
