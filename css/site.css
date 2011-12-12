@@ -14,6 +14,10 @@ h2 {
 	font-size: 138.5%;
 }
 
+h3 {
+	font-size: 123.1%;
+}
+
 h2 a {
 	text-decoration: none;
 }
@@ -23,7 +27,7 @@ h2 a:visited {
 	color: #340f56;
 }
 
-p {
+p, dt, dd {
 	font-size: 108%;
 }
 
@@ -32,7 +36,7 @@ nav.post-nav {
 }
 
 p, div.highlight {
-	margin-bottom: 10px;
+	margin-bottom: .75em;
 }
 
 pre, code {
@@ -89,7 +93,7 @@ pre, code {
 	color: green;
 }
 
-.c {
+.c, .c1, .c2 {
 	color: gray;
 }
 
@@ -106,7 +110,7 @@ pre, code {
 }
 
 .post-summary .date {
-	font-size: 77%;
+  font-size: 77%;
   padding: 0 8px 0 8px;
   font-weight: bold;
 }
@@ -129,4 +133,27 @@ pre, code {
 
 .next-post {
   float: right;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+nav.side h2,
+nav.side article.post-summary,
+nav.side p,
+nav.side footer {
+	padding-left: 30px;
+}
+
+nav.side footer {
+  font-size: 77%;
+}
+
+nav.side article.post-summary {
+	margin-bottom: .75em;
+}
+
+nav.side article.post-summary a {
+	text-decoration: none;
 }

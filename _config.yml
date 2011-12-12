@@ -1,2 +1,2 @@
 future: false
-exclude: vendor
+exclude: vendor, bin, Gemfile, Gemfile.lock, CNAME
