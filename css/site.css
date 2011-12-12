@@ -158,6 +158,10 @@ nav.side article.post-summary a {
 	text-decoration: none;
 }
 
+nav.side footer {
+	text-align: left;
+}
+
 .main footer {
 	font-size: 77%;
 	text-align: center;
