@@ -27,7 +27,7 @@ h2 a:visited {
 	color: #340f56;
 }
 
-p, dt, dd {
+p, dt, dd, .content>ul li {
 	font-size: 108%;
 }
 
