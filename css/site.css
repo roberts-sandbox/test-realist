@@ -27,7 +27,7 @@ h2 a:visited {
 	color: #340f56;
 }
 
-p, dt, dd, .content>ul li {
+p, dt, dd, .content>ul li, .content>ol li {
 	font-size: 108%;
 }
 
@@ -58,6 +58,8 @@ pre, code {
 	background-color: #111;
 	float: left;
 	color: white;
+	max-width: 606px;
+	overflow: auto;
 }
 
 .highlight pre {
@@ -69,7 +71,7 @@ pre, code {
 	line-height: 130%;
 }
 
-.k {
+.k, .kt {
 	color: tan;
 }
 
@@ -91,6 +93,18 @@ pre, code {
 
 .s {
 	color: green;
+}
+
+.nt {
+	color: orange;
+}
+
+.n {
+	color: thistle;
+}
+
+.na {
+	color: salmon;
 }
 
 .c, .c1, .c2 {
