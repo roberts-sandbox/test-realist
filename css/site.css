@@ -146,10 +146,6 @@ nav.side footer {
 	padding-left: 30px;
 }
 
-nav.side footer {
-  font-size: 77%;
-}
-
 nav.side article.post-summary {
 	margin-bottom: .75em;
 }
@@ -165,4 +161,17 @@ nav.side footer {
 .main footer {
 	font-size: 77%;
 	text-align: center;
+}
+
+.foreign-lang {
+	font-style: italic;
+}
+
+nav.side footer p {
+	padding-left: 0;
+	font-size: 100%;
+}
+
+footer.bottom {
+	margin-top: 20px;
 }
