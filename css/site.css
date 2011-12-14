@@ -31,6 +31,19 @@ p, dt, dd, .content>ul li, .content>ol li {
 	font-size: 108%;
 }
 
+.content>ul li p,
+.content>ul li dt,
+.content>ul li code,
+.content>ul li li,
+.content>ul li dd,
+.content>ol li p,
+.content>ol li dt,
+.content>ol li code,
+.content>ol li li,
+.content>ol li dd {
+	font-size: 100%;
+}
+
 nav.post-nav {
   height: 18px;
 }
@@ -188,4 +201,8 @@ nav.side footer p {
 
 footer.bottom {
 	margin-top: 20px;
+}
+
+.nowrap {
+	white-space: nowrap;
 }
