@@ -207,3 +207,7 @@ footer.bottom {
 .nowrap {
 	white-space: nowrap;
 }
+
+.big-list-holder article.post-summary {
+	margin-bottom: 50px;
+}
