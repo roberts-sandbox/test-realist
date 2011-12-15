@@ -24,7 +24,7 @@ could it be?
 I had just spent four years studying pure mathematics, hadn't yet discovered
 the joy of applying it professionally to computer programming, didn't want to
 become an actuary, accountant, or statistician, and had no direction. I
-decided to an American thing and take a road trip. On midnight of the Thursday
+decided to do an American thing and take a road trip. On midnight of the Thursday
 after the last day of school, we stopped by Tower Records, bought $70 worth of
 cassette tapes, and started out to drive Route 66.
 
