@@ -28,7 +28,7 @@ decided to do an American thing and take a road trip. On midnight of the Thursda
 after the last day of school, we stopped by Tower Records, bought $70 worth of
 cassette tapes, and started out to drive Route 66.
 
-Three months later, I had no money, no job, living with a Irish bartendress
+Three months later, I had no money, no job, lived with a Irish bartendress
 who had started to discover all the reasons why we shouldn't live together,
 and just needed _something to do._ I felt ready to change the world and had no
 vehicle with which to do that. So, I chose a direction that provided that
