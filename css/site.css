@@ -211,3 +211,12 @@ footer.bottom {
 .big-list-holder article.post-summary {
 	margin-bottom: 50px;
 }
+
+ul.nomargin li p {
+	margin: 0;
+}
+
+ul.nomargin ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
