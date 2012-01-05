@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Visitor Pattern in Python
-tags:   OOD
+tags:   OOD, python
 
 synopsis: In which I implement the visitor pattern in Python with decorators.
 ---

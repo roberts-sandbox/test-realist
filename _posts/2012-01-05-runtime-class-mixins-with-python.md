@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Runtime Class Mixins with Python
-tags:   OOD
+tags:   OOD, python
 
 synopsis: In which I show you how to do runtime mixins for classes in Python.
 ---
