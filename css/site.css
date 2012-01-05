@@ -121,7 +121,11 @@ pre, code {
 	color: salmon;
 }
 
-.c, .c1, .c2 {
+.lineno {
+	color: #666;
+}
+
+.c, .c1, .c2, .sd {
 	color: gray;
 }
 
