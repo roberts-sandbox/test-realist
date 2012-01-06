@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>curtis.schlak.com</title>
+	<link href="http://curtis.schlak.com" />
+	<link type="application/atom+xml" rel="self" href="http://curtis.schlak.com/atom.xml" />
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://curtis.schlak.com</id>
+	<author>
+		<name>Curtis Schlak</name>
+		<email>curtis@schlak.com</email>
+	</author>
+
+	{% for post in site.posts %}
+	<entry>
+		<id>http://curtis.schlak.com{{ post.id }}</id>
+		<link type="text/html" rel="alternate" href="http://curtis.schlak.com{{ post.url }}" />
+		<title>{{ post.title }}</title>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<author>
+			<name>Curtis Schlak</name>
+			<uri>http://curtis.schlak.com</uri>
+		</author>
+		<content type="html">{{ post.content | xml_escape }}</content>
+	</entry>
+	{% endfor %}
+</feed>
