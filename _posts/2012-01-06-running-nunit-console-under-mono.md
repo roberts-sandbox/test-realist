@@ -35,3 +35,4 @@ the darn thing to run can be quite a hassle. Follow these easy steps to run
 * Run `mono --debug <relative path to nunit-console> --nologo --noshadow <test dll>`
 
 And that should do it. Test with clarity!
+
