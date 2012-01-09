@@ -2,6 +2,7 @@
 layout: post
 title:  Making a To-Do List With flatiron.js (Story 3)
 tags:   javascript, flatiron
+date:   2012-01-13 08:00:00
 
 synopsis: "Story 3: When a user POSTs a form to /, it creates a new ToDo item, adds it to the session, and redirects to /."
 ---
@@ -84,10 +85,13 @@ need to parse the body of the post, so I will include a
 app.router.post('/', function() {
   var self = this;
   var task = new (Task)({desc: self.req.body.desc});
-  if(!self.req.session.tasks) {
-    self.req.session.tasks = [];
+  if(task.validate().valid) {
+    task.save();
+    if(!self.req.session.tasks) {
+      self.req.session.tasks = [];
+    }
+    self.req.session.tasks.push(task);
   }
-  self.req.session.tasks.push(task);
   self.res.writeHead(303, {'Location': '/'});
   self.res.end();
 });
