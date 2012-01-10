@@ -69,4 +69,49 @@ app.router.get('/', function() {
 });
 {% endhighlight %}
 
-Now, we need to take into account the post for that Delete button.
+Now, we need to take into account the post for that Delete button. Because we
+have made this a POST, we can handle it in the POST handler that we defined
+in
+[Story 3](../13/get-to-know-flatiron.js-by-building-a-todo-app-story-3.html).
+
+{% highlight javascript %}
+app.router.post('/', function() {
+  var self = this;
+  if(self.req.body.method && self.req.body.method === "DELETE") {
+    var taskId = self.req.body.id;
+    var task = Task.get(taskId);
+    var tasks = self.req.session.tasks;
+    tasks = tasks.splice(0, tasks.indexOf(task)).concat(tasks.splice(1));
+    self.req.session.tasks = tasks;
+    Task.destroy(taskId);
+  } else {
+    var task = new (Task)({desc: self.req.body.desc});
+    if(task.validate().valid) {
+      task.save();
+      if(!self.req.session.tasks) {
+        self.req.session.tasks = [];
+      }
+      self.req.connection = {encrypted: false};
+      self.res.emit('header');
+      self.req.session.tasks.push(task);
+    }
+  }
+  self.res.writeHead(303, {'Location': '/'});
+  self.res.end();
+});
+{% endhighlight %}
+
+And, that's it. Everything works. It's not pretty: the UI, the code. It would
+be nice to convert the POST that destroys a task into a DELETE message;
+however, that's deeper than this article should go.
+
+And, obviously, **plates** leaves a lot to be desired. I actually had a
+different implementation in my GET handler for this story and found that
+**plates** falls apart with its "simple" (read: buggy) HTML parser. I would
+like a DOM to actually handle this; however, as they mention in the
+documentation, those options do not perform quickly enough.
+
+But, this is it: **flatiron**. Overall, I like its unobtrusive nature. I think
+I will find it easy to build applications atop this framework.
+
+And, here's the completed [code](/assets/story5.zip).
