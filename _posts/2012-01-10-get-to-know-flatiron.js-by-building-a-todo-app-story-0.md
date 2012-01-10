@@ -13,13 +13,6 @@ synopsis: In which I walk through making a primitive to-do list Web app with fla
 
 -----
 
-* Story 0
-* [Story 1](../11/get-to-know-flatiron.js-by-building-a-todo-app-story-1.html)
-* [Story 2](../12/get-to-know-flatiron.js-by-building-a-todo-app-story-2.html)
-* [Story 3](../13/get-to-know-flatiron.js-by-building-a-todo-app-story-3.html)
-
------
-
 The makers of **[flatiron.js](http://flatironjs.org/)** bill it as "an
 unobtrusive framework initiative for node.js." It consists of five major
 components that the creators want to behave "isomorphically," that is,

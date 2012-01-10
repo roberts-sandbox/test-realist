@@ -13,10 +13,9 @@ synopsis: "Story 2: When a user first issues a GET to /, it serves an HTML page 
 
 -----
 
+## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)
 * [Story 1](../11/get-to-know-flatiron.js-by-building-a-todo-app-story-1.html) - [story1.zip](/assets/story1.zip)
-* Story 2
-* [Story 3](../13/get-to-know-flatiron.js-by-building-a-todo-app-story-3.html)
 
 -----
 
