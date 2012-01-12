@@ -64,7 +64,7 @@ There's a problem in the **session** middleware. If we head over to its github
 repo and look at the
 [history of session.js](https://github.com/senchalabs/connect/commits/master/lib/middleware/session.js),
 then we find out that the version of ``session.js`` that we installed with
-version 1.8.5 of **connect** is at least six months old. Well, let' update
+version 1.8.5 of **connect** is at least six months old. Well, let's update
 connect to the 2.0.0alpha version by specifying the URL to the tarball. Change
 ``package.json`` to read
 
@@ -165,6 +165,9 @@ let's see what we get.
 ### Problems resolved
 
 Finally, an empty page in the browser and no uncaught exceptions in our
-server. Let's head on over to the second story. So, **flatiron** may be
-backwards compatible with **connect**, but **connect** doesn't have a new
-release to make it compatible with node@0.6.
+server.
+
+"What did you learn today, Ian?" 
+
+"I learned that **flatiron** may be backwards compatible with **connect**, but
+**connect** doesn't have a new release to make it compatible with node@0.6."
