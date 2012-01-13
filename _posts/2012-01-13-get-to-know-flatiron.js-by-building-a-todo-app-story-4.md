@@ -2,7 +2,7 @@
 layout: post
 title:  Making a To-Do List With flatiron.js (Story 4)
 tags:   javascript, flatiron
-date:   2012-01-13 09:00:00
+date:   2012-01-13 02:00:00
 
 synopsis: "Story 4: When a user issues a GET to / after session creation, the HTML page continues to show the input and button while showing the task list beneath it."
 ---

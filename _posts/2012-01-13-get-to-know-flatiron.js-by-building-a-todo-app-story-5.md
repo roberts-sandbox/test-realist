@@ -2,7 +2,7 @@
 layout: post
 title:  Making a To-Do List With flatiron.js (Story 5)
 tags:   javascript, flatiron
-date:   2012-01-13 10:00:00
+date:   2012-01-13 03:00:00
 
 synopsis: "Story 5: Each item in the task list will have a &quot;Delete&quot; link next to it so the user can remove the to-do item from the list."
 ---

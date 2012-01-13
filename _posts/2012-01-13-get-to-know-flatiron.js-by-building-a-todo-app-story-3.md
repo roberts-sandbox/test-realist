@@ -2,7 +2,7 @@
 layout: post
 title:  Making a To-Do List With flatiron.js (Story 3)
 tags:   javascript, flatiron
-date:   2012-01-13 08:00:00
+date:   2012-01-13 01:00:00
 
 synopsis: "Story 3: When a user POSTs a form to /, it creates a new ToDo item, adds it to the session, and redirects to /."
 ---
