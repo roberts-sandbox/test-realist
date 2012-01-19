@@ -251,12 +251,12 @@ ul.nomargin ul {
 .kn { color: #008000; } /* Keyword.Namespace */
 .kp { color: #003080; } /* Keyword.Pseudo */
 .kr { color: #008000; } /* Keyword.Reserved */
-.kt { color: #303090; } /* Keyword.Type */
+.kt { color: tan; } /* Keyword.Type */
 .m { color: #6000E0; } /* Literal.Number */
 .s { color: orange; } /* Literal.String */
-.na { color: #0000C0 } /* Name.Attribute */
+.na { color: #7079ef } /* Name.Attribute */
 .nb { color: #007020 } /* Name.Builtin */
-.nc { color: #B00060; } /* Name.Class */
+.nc { color: #ffaaaa; } /* Name.Class */
 .no { color: #003060; } /* Name.Constant */
 .nd { color: #505050; } /* Name.Decorator */
 .ni { color: #800000; } /* Name.Entity */
