@@ -153,7 +153,7 @@ synopsis: In which I use my blog as a Web log.
 
 18:54 : Entered house, turned on oven, dropped bag, changed clothes
 
-18:59 : Turned on oven for pizza
+18:59 : Put pizza in oven
 
 19:00 : Smoke break with my beautiful wife
 
