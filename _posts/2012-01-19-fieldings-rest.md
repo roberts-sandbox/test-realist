@@ -16,10 +16,12 @@ synopsis: In which I consider Roy Fielding's definition of REpresentational Stat
 *Note:* this discussion primarily centers on the HTTP; REST over other
 protocols exceeds the scope of this article.
 
-My friend [philipmat](http://philipm.at) over at his blog will soon (or
-already has) publish(ed) a novel approach to building Web applications that
-use the server as a REST service and use the browser as the controler and view
-in the MVC triumverate.
+[Updated with link to **philipmat**'s blog.]
+
+My friend [philipmat](http://philipm.at) over at his blog 
+has [published a novel approach](http://philipm.at/2012/0121/)
+to building Web applications that use the server as a REST service and use the
+browser as the controler and view in the MVC triumverate.
 
 That idea, in and of itself, does not represent a "new idea." The fine
 developers at [Sencha](http://extjs.org) and [Yahoo!](http://yuilibrary.com)
