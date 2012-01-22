@@ -486,4 +486,18 @@ As Dr. Fielding writes, REST is simple. You just have to think a long time,
 make many mistakes, and fail miserably a couple of times before it beomces
 simple in your mind.
 
+## What philipmat wants?
+
+I don't think so. From what I understand of his motives, the custom media
+type issue just won't work without some work on the part of the Web developer
+with custom mime-type mappings and custom file extensions. He wants to keep
+that interaction as *simple as possible*.
+
+However, that issue seems the only thing standing between his divorced efforts
+of UI and server development. Perhaps he can think through the problem and
+engineer a better solution.
+
+You can find my forked nodejs-served version of
+[philipmat/webmvc@github](https://github.com/philipmat/webmvc) over at
+[realistschuckle/webmvc@github](https://github.com/realistschuckle/webmvc).
 
