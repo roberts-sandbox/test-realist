@@ -16,7 +16,7 @@ synopsis: In which I consider Roy Fielding's definition of REpresentational Stat
 *Note:* this discussion primarily centers on the HTTP; REST over other
 protocols exceeds the scope of this article.
 
-[Updated with link to **philipmat**'s blog.]
+\[Updated with link to **philipmat**'s blog.\]
 
 My friend [philipmat](http://philipm.at) over at his blog 
 has [published a novel approach](http://philipm.at/2012/0121/)
