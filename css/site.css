@@ -85,50 +85,6 @@ pre, code {
 	line-height: 130%;
 }
 
-.k, .kt {
-	color: tan;
-}
-
-.nc {
-	color: orange;
-}
-
-.nb {
-	color: salmon;
-}
-
-.nf {
-	color: yellow;
-}
-
-.bp {
-	color: thistle;
-}
-
-.s {
-	color: green;
-}
-
-.nt {
-	color: orange;
-}
-
-.n {
-	color: thistle;
-}
-
-.na {
-	color: salmon;
-}
-
-.lineno {
-	color: #666;
-}
-
-.c, .c1, .c2, .sd {
-	color: gray;
-}
-
 .main .top li
 {
 	display: inline;
@@ -169,6 +125,14 @@ pre, code {
 
 .title {
 	text-decoration: underline;
+}
+
+.aside {
+	border: 1px solid #999;
+	background-color: #CCC;
+	text-align: justify;
+	padding: 10px;
+	margin: 15px;
 }
 
 nav.side h2,

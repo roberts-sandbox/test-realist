@@ -81,9 +81,14 @@ connect to that resource. Duh. Ain't got no FTP server running! However, if I
 did, and you passed an equivalent GET request for that resource, you should
 get this same page.
 
-### A REST API should not contain any changes to the communication protocols
+For an example of REST for another protocol, Paul Prescod wrote the
+illustrative
+[Reinventing Email using REST](http://www.prescod.net/rest/restmail/). Thank
+you, **philipmat**, for that link.
 
-> aside from filling-out or fixing the details of underspecified bits of
+### A REST API should not contain any changes to the communication protocols...
+
+> ...aside from filling-out or fixing the details of underspecified bits of
 > standard protocols, such as HTTP’s PATCH method or Link header field.
 > Workarounds for broken implementations (such as those browsers stupid enough
 > to believe that HTML defines HTTP’s method set) should be defined
@@ -106,9 +111,14 @@ field with the value "reset" and, on the server-side, that translated to the
 invocation of the ``reset`` method on my object handling that value, I've
 done what Fielding warns against.
 
-### A REST API should spend almost all of its descriptive effort in defining the media type(s) used for representing resources and driving application state,
+To do this correctly, you should follow the protocols strictly. If you need
+resource locking, for example, adopt the WebDAV protocol instead of strict
+HTTP. Don't subvert the protocol to your needs; instead, re-engineer your
+needs to fit the protocol.
 
-> or in defining extended relation names and/or hypertext-enabled mark-up
+### A REST API should spend almost all of its descriptive effort in defining the media type(s) used for representing resources and driving application state, ...
+
+> ...or in defining extended relation names and/or hypertext-enabled mark-up
 > for existing standard media types. Any effort spent describing what methods
 > to use on what URIs of interest should be entirely defined within the scope
 > of the processing rules for a media type (and, in most cases, already
@@ -167,9 +177,17 @@ the services for your application. Unless the resource representation includes
 those links, you *cannot* assume those state transitions exist. Those
 assumptions represents "out-of-band information driving interaction."
 
-### A REST API must not define fixed resource names or hierarchies (an obvious coupling of client and server).
+Messages in REST need to encapsulate all of the information needed to describe
+the message, as well as the transitions away from the application. In this
+case, you could use a
+[URI Template](http://datatracker.ietf.org/doc/draft-gregorio-uritemplate/?include_text=1)
+as a link generator to provide the alternate paths to the PDFs. Then, you
+could use in-browser detection to determine if your user has Firefox, and only
+then create the associated links.
 
-> Servers must have the freedom to control their own namespace. Instead, allow
+### A REST API must not define fixed resource names or hierarchies (an obvious coupling of client and server)....
+
+> ...Servers must have the freedom to control their own namespace. Instead, allow
 > servers to instruct clients on how to construct appropriate URIs, such as is
 > done in HTML forms and URI templates, by defining those instructions within
 > media types and link relations. \[Failure here implies that clients are
@@ -209,9 +227,15 @@ page, we should also allow the server to define its namespace such that
 ``http://server/23948729384792834928347.jpg`` returns that HTML page, if the
 server so desired.
 
-### A REST API should never have “typed” resources that are significant to the client.
+Now, the Rails way does not *strictly* disobey REST since the easy way to use
+it follows a convention-over-configuration design. You could go in and list
+custom routes for any of those method+path combinations. Just make sure that
+your REST API does not *require* clients to konw some predefined route
+structure to use your service.
 
-> Specification authors may use resource types for describing server
+### A REST API should never have “typed” resources that are significant to the client....
+
+> ...Specification authors may use resource types for describing server
 > implementation behind the interface, but those types must be irrelevant and
 > invisible to the client. The only types that are significant to a client are
 > the current representation’s media type and standardized relation names.
@@ -252,9 +276,57 @@ information, especially if you decide to allow the user to add another book to
 an incomplete list. Because this resource's representation contains no links
 to other resources, your user has come to the end of the application.
 
-### A REST API should be entered with no prior knowledge beyond the initial URI (bookmark) and set of standardized media types that are appropriate for the intended audience
+We can fix this example a couple of ways. First of, ``application/json`` does
+not really give us much information. We'd really like for the message to
+describe the contents within the package so we can understand the semantic
+meaning of the data packet.
 
-> (i.e., expected to be understood by any client that might use the API). From
+#### Option 1: Include header links
+
+We can include header links in the server's response to describe a relation
+for this data that understands how it works.
+
+{% highlight javascript %}
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 461
+Link: <author-format-interpreter.js>; REL=JSON-interpreter
+
+{
+  "name": "Mark Twain",
+{% endhighlight %}
+
+The browser does not know how to interpret the relation "JSON-interpreter."
+Instead, you should have code in the browser already that can read that header
+from an AJAX call and load the script file.
+
+#### Option 2: Invent a new media type
+
+For the most part, ``application/json`` fails almost every requirement of a
+media type for REST. It merely states that the body of the message contains
+JSON. When your browser loads something with a ``text/html`` type, it knows
+what to do with it: render it using its HTML parser. If the browser receives
+a message with a ``image/png`` media type, it knows to render bitmap
+information. ``application/json`` does not tell the browser *anything* about
+how to use the packet. And, if your JavaScript expects a certain data format
+without the advantage of a self-describing message, then you have failed REST.
+
+To ensure that we have an author returning, we can invent a media type for the
+AJAX call to sense and handle it based on that media type rather than an
+expected format.
+
+{% highlight javascript %}
+HTTP/1.1 200 OK
+Content-Type: text/vnd.myapp-author
+Content-Length: 461
+
+{
+  "name": "Mark Twain",
+{% endhighlight %}
+
+### A REST API should be entered with no prior knowledge beyond the initial URI (bookmark) and set of standardized media types that are appropriate for the intended audience...
+
+> ...(i.e., expected to be understood by any client that might use the API). From
 > that point on, all application state transitions must be driven by client
 > selection of server-provided choices that are present in the received
 > representations or implied by the user’s manipulation of those
@@ -269,6 +341,8 @@ to Amazon Books that searched for each of the titles, that breaks this
 expectation of REST. If you invent a URI that leads from the current resource
 to another resource or POST back to this or another resource, you've boned
 your REST client.
+
+Again, to fix this, use code-on-demand and URI Templates.
 
 ## How does this relate to [New (Old) Web Architecture](http://philipm.at/2012/0121/)?
 
@@ -295,13 +369,30 @@ first.)
 
 ### Dissection - Step 1
 
+**Understanding URL Fragments**  
+I haven't touched on URL fragments, yet, in my discussions about URIs. Since
+browsers don't send them to the server, I really haven't had need to talk
+about them; however, with BORAX-programming, it makes sense. A fragment
+points to a subentity of the entity represented by the resource at the end of
+the URL. In a browser that usually means an element with a specific ``name``
+or ``id`` attribute to which the browser will automatically scroll. However,
+if the subentity does not readily exist in the entity and we have some way to
+discover its location, then nothing in REST says that we can't traverse the
+application state to include that subentity in the current state.
+{: class=aside }
+
 The first step states "Give me the resource for one_entity and navigate to the
 sub-entity named by clients/1." The JavaScript included with "one_entity"
 would then start the requests. Most likely, it knows how to do this because
 the JavaScript interprets the information after the fragment identifier as a
 relative URI. That does not comply with REST. However, we can make it comply
-with REST by using the ``link`` tag, a custom relation, and a
+with REST by using the ``link`` tag, a custom relation, changing the fragment
+to a Uniform Resource Name, and a
 [URI template](http://datatracker.ietf.org/doc/draft-gregorio-uritemplate/?include_text=1).
+{: class=after-aside }
+
+Now, our application will change its state to the resource found at
+``/one_entity#urn:myapp:client:1``.
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -317,6 +408,13 @@ this would happen and included the code-on-demand portion of REST to augment
 the rendering of a resource. That's what that ``script`` tag following the
 ``link`` tag does: run the URI template from the link that the browser can't
 handle because it does not understand the "entity-representation" relation.
+
+Furthermore, because the fragment now consists of a URN, because the URI
+standard allows us to translate URNs to URLs, because REST has allowed us to
+load the "entity-load.js" script-represented resource, because we have a link
+builder in the form a of URI template with a custom relation that our
+application can interpret, we have met all requirements of self-describing
+messages! That, friends, is REST.
 
 ### Dissection - Steps 2 and 3
 
@@ -351,6 +449,15 @@ If those two items came back in a "multipart/related" response from a server,
 it would make total sense to use **knockout.js** to combine them.
 
 We've leveraged the power of media types to help render our specific content.
+Remember, if we have returned those two messages with the media types
+``text/html`` and ``application/json``, the message would imply that we should
+just render the HTML in the browser without connection to any templating
+needs and do nothing with the JSON because we cannot infer to plug that into
+the templating engine.
+
+REST requires self-describing messages. We use custom media types to allow our
+application to understand the rendering intent of the content of each of those
+responses.
 
 ### Dissection - Step 4
 
