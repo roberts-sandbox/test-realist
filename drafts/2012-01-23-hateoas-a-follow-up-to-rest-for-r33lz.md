@@ -300,7 +300,10 @@ The browser does not know how to interpret the relation "JSON-interpreter."
 Instead, you should have code in the browser already that can read that header
 from an AJAX call and load the script file.
 
-#### Option 2: Invent a new media type
+#### Option 2: Invent a new media type or microfomat
+
+\[Wikipedia has a nice article on
+[microformats](http://en.wikipedia.org/wiki/Microformat).\]
 
 For the most part, ``application/json`` fails almost every requirement of a
 media type for REST. It merely states that the body of the message contains
@@ -486,7 +489,7 @@ As Dr. Fielding writes, REST is simple. You just have to think a long time,
 make many mistakes, and fail miserably a couple of times before it beomces
 simple in your mind.
 
-## What philipmat wants?
+## Is this what philipmat wants? What he desires, covets, craves, lusts after?
 
 I don't think so. From what I understand of his motives, the custom media
 type issue just won't work without some work on the part of the Web developer
