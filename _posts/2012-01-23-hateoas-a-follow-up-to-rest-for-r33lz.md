@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HATEOAS: A Follow-Up to Rest for R33lZ for BORAX"
+title:  "HATEOAS: A Follow-Up Discussion About Rest"
 tags:   architecture
 
 synopsis: In which I take my friend's advice to engage in more pedagogy about REST, and the New Web programming style BORAX.
