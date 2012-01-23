@@ -502,5 +502,6 @@ engineer a better solution.
 
 You can find my forked nodejs-served version of
 [philipmat/webmvc@github](https://github.com/philipmat/webmvc) over at
-[realistschuckle/webmvc@github](https://github.com/realistschuckle/webmvc).
+[realistschuckle/webmvc@github](https://github.com/realistschuckle/webmvc/tree/borax).
+Make sure that you checkout the **borax** branch!
 
