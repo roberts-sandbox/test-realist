@@ -115,12 +115,20 @@ pre, code {
 	margin-bottom: 24px;
 }
 
-.prev-post {
+.prev-post, .left {
   float: left;
 }
 
-.next-post {
+.next-post, .right {
   float: right;
+}
+
+.middle {
+	text-align: center;
+}
+
+.main .content .clearnone {
+	clear: none;
 }
 
 .title {
