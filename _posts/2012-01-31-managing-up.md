@@ -33,7 +33,7 @@ Hindsight has revealed that I hadn't performed what I now see as the most
 important job of a development manager: managing up. By that, I mean that I
 did not manage the expectations or needs of my own boss.
 
-[Yesterday](/2012/01/30/managing-down.html), I wrote about "managing down."
+Yesterday, I wrote about [managing down](/2012/01/30/managing-down.html).
 Turns out that, in most cases, managing software development teams, "managing
 down," kind of runs itself. Unless you've out-sourced all of the development
 and your developers sit 8000 miles away from you. But, if the developers sit
@@ -148,7 +148,7 @@ you screw up, tell them.
 
 You might find this difficult. A lot of people lie upward, hiding the bad
 truth from their boss. They do that because they don't want to look bad to
-their boss. The want to appear perfect. I understand that. I hate
+their boss. They want to appear perfect. I understand that. I hate
 disappointing my boss, even if I don't like him. Especially if I don't like
 him.
 
