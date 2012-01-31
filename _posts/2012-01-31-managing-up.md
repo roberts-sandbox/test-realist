@@ -65,7 +65,7 @@ boss&nbsp;&nbsp;</u>, I'm not talking about you! Really!
 
 When I worked at KickFire in Saratoga as the Director of Development, I
 reported to Bruce, the CTO, a visionary if ever I had met one. He wanted to
-write a series of novels like Asimov's Foudnation series that spanned millions
+write a series of novels like Asimov's Foundation series that spanned millions
 of years. He invented some software to help him organize the events of his
 fictional universe. It turned out that it had applications in organizing
 and coordinating real-world corporations' activities.

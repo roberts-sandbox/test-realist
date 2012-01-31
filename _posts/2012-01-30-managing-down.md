@@ -222,7 +222,7 @@ group of team members skillfully (no hurt feelings, little resentment,
 positive directions) toward a common goal.
 
 You must handle your team with integrity and honesty. You must respect your
-team memebers so they can respect you. You must have the decency to know the
+team members so they can respect you. You must have the decency to know the
 members of your team. You must concern yourself with their concerns. Give them
 opportunities in which to succeed and provide feedback.
 
