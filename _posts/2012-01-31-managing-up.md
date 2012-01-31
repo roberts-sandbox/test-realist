@@ -139,7 +139,7 @@ e-invoice company. The "e" should have clued him in.
 
 ## Communicate honestly with them
 
-I cannot stress this enough. This makes you a better person, make the team
+I cannot stress this enough. This makes you a better person, makes the team
 better, and will keep your boss in a position of power. They like power, those
 bosses.
 
@@ -181,6 +181,6 @@ choose judiciously. In some cases, it can get you fired.
 
 ## Can you add to this list?
 
-Thanks for reading this far. A lot of us have unspoken strategies that we use
-to get along with our bosses. If you have one that you think worth sharing,
-please post it down in the comments section below for others to read.
+Thanks for reading this far. A lot of you have unspoken strategies that you
+use to get along with your bosses. If you have one that you think worth
+sharing, please post it down in the comments section below for others to read.
