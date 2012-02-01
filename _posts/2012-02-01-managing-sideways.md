@@ -39,7 +39,7 @@ this makes managing sideways one of the hardest topics about which to write in
 leadership.
 
 For me, personally, I have another reason why I find this topic difficult to
-address. The single largest mistake I have made in my career comes from an
+address. The single largest mistake I have made in my career came from an
 inability to manage sideways. I believe that if I had done it better, if I had
 taken the time to understand the intricacies of the politics of managing
 sideways, then I would still sit on the executive board of a 300-employee company
