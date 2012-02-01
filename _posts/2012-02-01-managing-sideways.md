@@ -50,7 +50,7 @@ out. More about this, later.
 ## Eat, drink, be merry
 
 If you follow the advice in *Managing Down*, then you won't fraternize with
-the members of our team that report to you. So, with whom can you enjoy a
+the members of your team that report to you. So, with whom can you enjoy a
 tall, cold one? Your peers!
 
 That's right. You may battle with them during the day for money, resources,
