@@ -376,7 +376,7 @@ I tried to help people that wanted a new job or got axed because they didn't
 stay under New CTO Guy and R&D Director Guy.
 
 **What I should have done:** At this point, I probably couldn't extricate
-myself from the intolerable situation. The best thing would I could do: bring
+myself from the intolerable situation. The best thing I could do: bring
 a keg in on a Friday afternoon and drink with my coworkers while wishing
 them a fond farewell.
 
