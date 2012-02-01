@@ -136,7 +136,7 @@ work because of your imperfect understanding of the problem. Pride, in that
 case, breaks your team's faith in you. Admit ignorance in your negotiation,
 learn what you need to know, and return to the negotiation.
 
-Because you have the accountability and responsibility to deliver, you have
+Because you have the accountability and responsibility to deliver, you
 also have the power to craft that delivery how you see fit.
 
 Consensus building for how to fulfill your responsibilities is inane. It's
