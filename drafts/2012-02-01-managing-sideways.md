@@ -42,8 +42,8 @@ For me, personally, I have another reason why I find this topic difficult to
 address. The single largest mistake I have made in my career comes from an
 inability to manage sideways. I believe that if I had done it better, if I had
 taken the time to understand the intricacies of the politics of managing
-sideways, then I would still have the title "Vice President of Engineering"
-rather than "Director, Architect." Instead, I failed to realize the potential
+sideways, then I would still sit on the executive board of a 300-employee company
+rather than as a cog in a multinational bank. Instead, I failed to realize the potential
 dangers that came from around me. Before I knew it, I had no where to go but
 out. More about this, later.
 
@@ -83,11 +83,17 @@ I do know how to effectively listen. I know how to make jokes. I know how to
 say, "That's cool!" I can engage people in conversation, not just talk at
 them. That, more than anything, builds interpersonal connections.
 
-If you need help with this, join an improv group, head over to Toastmasters,
-practice reading aloud, anything to get you talking. Then, go sit at a
-crowded café and listen, really *listen* to the people around you. Think about
-their lives. Learn to  stop thinking two steps ahead to what you want to say
-in response.
+If you need help with this, you need to attack this from two directions.
+
+__Learn to speak fluidly__
+: Join an improv group, head over to Toastmasters, practice reading aloud,
+anything to get you talking.
+
+__Learn to listen effectively__
+: Then, go sit at a crowded café and listen,
+[really *listen*](http://www.huffingtonpost.com/michael-taft/learning-to-listen_b_912046.html)
+to the people around you. Learn to stop thinking two steps ahead to what you
+want to say in response.
 
 ## Exercise your autonomy
 
@@ -107,24 +113,35 @@ a scapegoat and secretary.
 
 Assuming you have the authority to lead your team as you see fit (within
 reason and company policy), then you do not need your peers' approval for the
-goals that you set your team. You may need to coördinate with other teams, you
+goals that you set for your team. You may need to coördinate with other teams, you
 will need to communicate the output of your team to your peers, but they
 should not have their hands in your pie.
 
 Drill Sergeant Jamison at Fort Benning, GA, had the perfect phrase for this.
-He would say to us, "Men, I'm fucking this chicken! You just watch the
+He would say to us, "Men, *I'm* fucking this chicken! *You* just watch the
 feathers fly!"
 
 This does not mean that you should act combatively with your peers when trying
 to accomplish an objective that spans more than one team. It just means that
 once your boss has assigned areas of responsibility, run it with all of the
-determination that you can muster. Protect your assets, be they people, a
-scope of work, or the generation of ideas. Those are for your team to create
-with whatever inspiration, process, and perspiration you care to invest in the
-successful completion of the exertion.
+determination that you can muster. Protect your people. Own your ideas.
+Infect your team with confidence in their decisions.
+
+Cross-cutting concerns or integration points between your team and others'
+represent potential exercises of power that, unless judiciously exercised,
+will lead to the destruction of whatever working relationship that you have
+with the other team leader. You must embody negotiation and compromise in
+these situations, ever mindful that your team does not get screwed into extra
+work because of your imperfect understanding of the problem. Pride, in that
+case, breaks your team's faith in you. Admit ignorance in your negotiation,
+learn what you need to know, and return to the negotiation.
 
 Because you have the accountability and responsibility to deliver, you have
 also have the power to craft that delivery how you see fit.
+
+Consensus building for how to fulfill your responsibilities is inane. It's
+*your* responsibility for a reason. At most, you should coördinate with your
+peers. Don't let them dictate. At most, let them influence.
 
 ## Create and value loyalty
 
@@ -166,12 +183,13 @@ I really hate that phrase. I first noticed it about eight years ago. Its
 continued popularity befuddles me. I'd rather yell, "You're a fucking
 back-stabber, you son of a bitch!" I guess that makes for poor TV ratings.
 
-Regardless, those phrases mean that your peer or subordinate who you believe
-has blame for a situation, in total or in part, has said that you alone should
-carry the blame. They'll say this to your boss, their boss, the other members
-of your peer group, their friends on Facebook.... Maybe they really believe
-that the present misfortune came from your actions or inactions. Maybe they
-just don't want to carry blame because they have no courage.
+Regardless, if you exclaim either of those phrases, then you believe a peer
+has blamed you for a problem in which they should share (or own) the blame.
+They'll press the blame onto you in conversations with your boss, their boss,
+the other members of your peer group, their friends on Facebook.... Maybe they
+really believe that the present misfortune came from your actions or
+inactions. Maybe they just don't want to carry blame because they have no
+courage.
 
 Maybe they just don't like you.
 
@@ -191,9 +209,9 @@ How can we combat this when it seems like we have the genetic disposition to
 participate in this abuse of lying?
 
 Quite simply, you will have to accept the fact that gossip mongers care not
-for the truth. To most effectively accommodate the truth you must counter the
-shit-speaking of others by providing an incorruptible example with those that
-you work. If you work as a programmer, a worker bee, a minion, a flunky, then
+for the truth. To most effectively accommodate the truth you must counter
+others' shit-speaking by providing an incorruptible example to those around
+you. If you work as a programmer, a worker bee, a minion, a flunky, then
 that involves the members of your team, your boss, and your customers. If you
 have a position as a low-level manager, that means the members of your team,
 your boss, and your customers. If you have hundreds of people working for you,
@@ -203,7 +221,7 @@ the hundreds of billions, then that means the members of your team two-levels
 deep, the shareholders, and your customers.
 
 When you have the respect of the people around you, they will defend you. When
-you have the respect of the people below you, they will assuredly prove false
+you have the respect of the people below you, they will assuredly argue against
 rumors of your incompetence. When you have the respect of people above you,
 then you have protection and advocacy on your side from attacks from peers and
 peers of peers.
@@ -242,11 +260,17 @@ Think strategically. Act tactically. Win.
 
 ## How I failed to do any of that
 
+I need to start this section with the statement that any bitterness that you
+read here really stems from my inability to successfully apply the principles
+listed above. Any dislike you note, well, that's real. I've changed the names
+to primarily protect myself from lawsuits. Oh, and to protect the innocent.
+
 I joined [DataCert](http://www.datacert.com) in January 2006 as a Senior
 Software Developer. I worked hard, impressed some folks, and pushed hard for
 change. The CEO and executive team rewarded me fourteen months later with a
-promotion to Vice President of Engineering. I took over the care of the
-flagship products for the company. I owned them.
+promotion to Vice President of Engineering and a position on the executive
+committee, a seat at the big boy's table of a $24 million company. I took over
+the care of the flagship products for the company. I owned them.
 
 The development teams that I oversaw in Houston, Dallas, Austin, and Pune had
 some of the finest people I've ever had the pleasure with which to work. Smart
@@ -257,40 +281,43 @@ years and yearned to go IPO. Exciting times.
 
 ### My first step toward failure: remoteness
 
-Four guys traditionally ran the Engineering department: Eric the CTO, Chris
-the Architect, John the Evangelist, and David the Engineer. I didn't belong to
+Four guys traditionally ran the Engineering department: CTO Guy, Architect Guy,
+Evangelist Guy, and MIT Guy. None of them reported to me. I didn't belong to
 the clique. My first mistake was *I didn't care about joining their group.*
 They liked drinking and smoking cigars, being masters of destiny. Had we lived
 in nineteenth century London, you would have found them and their waxed
 moustaches at the walnut wainscoted gentlemens club sipping sherry and
 twirling their pocket watches.
 
+**What I should have done:** I don't think I ever could have become a "tight"
+member of this group. However, I could have sought access and kept myself
+loosely integrated with them. At least it would seem that I ingratiated
+myself with them. I could have leveraged that falsehood.
+
 ### My second step toward failure: abdicating autonomy
 
-John the Evangelist pulled me aside early in my tenure. He advised that I try
+Evangelist Guy pulled me aside early in my tenure. He advised that I try
 to build consensus amongst the seven people on the executive committee about
 the way we constructed software. The person before me had not done that. I
 thought that it sounded like a good idea.
 
-I grew up as a preacher's kid. I should have known that some evangelists can
-try to save your soul with snake oil.
-
 I tried the consensus building. I wanted desperately to rework the three
 flagship products. I tried to build momentum for the initiative. The CEO felt
 ambivalent toward the proposal because the last time the Engineering had done
-that under the leadership of Chris the Architect and John the Evangelist, they
+that under the leadership of Architect Guy and Evangelist Guy, they
 had gone dark for almost a year before they produced something usable. I could
 understand that. I went to the Sales Guy and the Professional Services Guy.
 I learned they could couldn't care less as long as Sales Guy could continue
 making sales and Professional Services Guy could keep implementing it quickly
 at client sites.
 
-Later, I learned, John the Evangelist and Chris the Architect had launched an
+Later, I learned, Evangelist Guy and Architect Guy had launched an
 active campaign to discredit the notion of a new version of the software.
 
-I should have done what I wanted. As long as the developers and QA produced a
+**What I should have done**: As long as the developers and QA produced a
 solid product in a reasonable amount of time, most of the company wouldn't
-have cared if I cartwheeled naked down the hallways.
+have cared if I cartwheeled naked down the hallways. I should have implemented
+my plan to rebuild the software.
 
 ### A partial success: build loyalty
 
@@ -311,16 +338,20 @@ world. I should have taken his advice about squashing my opponents.
 
 ### Back to failure: dodging the blame
 
-Toward the end of my tenure, Chris the Architect won the promotion to Chris
-the CTO. John the Evangelist won the promotion to John the Director of
-Research of Development. David the Engineer worked for the two of them. They
-embarked on a crusade to blame me for trying to block their process
-improvement program.
+Toward the end of my tenure, Architect Guy won the promotion to New CTO Guy.
+Evangelist Guy won the promotion to R&D Director Guy. MIT Guy worked for the
+two of them. They embarked on a crusade to blame me for trying to block their
+process improvement program.
 
 I thought it was ludicrous. I stayed silent. Blame landed on my shoes,
-splattered on my pant leg and stained my collar. Like gibbons at the zoo
-slinging their feces, they pushed hard to ensure that the perception of the
-Engineering department appeared as dismal as they could render it.
+splattered on my pant leg and stained my collar. They pushed hard to ensure
+that the perception of the Engineering department appeared as dismal as they
+could render it.
+
+**What I should have done:** I should have countered this attack by
+managing up, better. Sometimes, the only thing you can do is run to Daddy, in
+this case, the CEO. I would have spent more time with him to build my
+reputation instead of letting it get sullied.
 
 ### My fourth step toward failure: pacifism
 
@@ -333,7 +364,7 @@ that they had ever seen.
 
 Nope. Not enough.
 
-Turns out lots of people pay attention to that stuff. Pay attention to and
+Turns out lots of people pay attention to whispers. Pay attention to and
 participate in. I assume Mark Burnett thinks of these people when he develops
 a new smash hit for TV.
 
@@ -342,7 +373,12 @@ I quietly extended my availability to select companies in the area, got a job
 offer, and left.
 
 I tried to help people that wanted a new job or got axed because they didn't
-play the Chris and John game.
+stay under New CTO Guy and R&D Director Guy.
+
+**What I should have done:** At this point, I probably couldn't extricate
+myself from the intolerable situation. At this point, the best thing would
+bring a keg in on a Friday afternoon and drink with my coworkers while wishing
+them a fond farewell.
 
 ### Postscript
 
@@ -351,11 +387,11 @@ the software just like I wanted. From the marketing description you can find
 on their Web site, it bears a striking resemblance to my proposal. My legacy
 lives, just raised by other parents.
 
-John the Evangelist got fired. He now works with Eric the CTO at another
-company.
+Evangelist/R&D Director Guy got fired. He now works with Old CTO Guy at
+another company.
 
-Chris the CTO continues his work there. Why shouldn't he? He has so many
-worthless stock options with the company that he has to ride that pony until
+Architect/New CTO Guy continues his work there. Why shouldn't he? He has so
+many stock options with the company that he has to ride that pony until
 IPO. Otherwise, his effort will equal naught.
 
 David the Engineer still works with Chris the CTO as the VP of R&D.
