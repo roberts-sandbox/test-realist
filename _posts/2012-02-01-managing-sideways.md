@@ -155,7 +155,7 @@ and validates our humanity.
 
 Do not confuse loyalty and friendship. Friends can act dutifully for one
 another. Loyalty to an ideal can bind enemies. On the other hand, friends can
-often treat one another badly. Loyalists can betray one another but not the
+treat one another badly. Loyalists can betray one another but not the
 ideal.
 
 Creating loyalty requires only one ingredient: sincerity. You don't have to
@@ -231,7 +231,7 @@ peers of peers.
 Sometimes these policies fail.
 
 Sometimes, regardless of the number of olive branches you extend, that guy
-that should work with you becomes your most fervent enemy.
+who should work alongside you becomes your most fervent enemy.
 
 At this point, you have to eviscerate them. Destroy them. Make them weep.
 
@@ -273,7 +273,7 @@ committee, a seat at the big boy's table of a $24 million company. I took over
 the care of the flagship products for the company. I owned them.
 
 The development teams that I oversaw in Houston, Dallas, Austin, and Pune had
-some of the finest people I've ever had the pleasure with which to work. Smart
+some of the finest people with whom I've ever worked. Smart
 people. Dedicated people. Fun people. People with whom I had worked in the
 trenches. My view of the company from the software team made me think the
 company had a startup feel to it though the company had existed for eight
@@ -303,7 +303,7 @@ thought that it sounded like a good idea.
 
 I tried the consensus building. I wanted desperately to rework the three
 flagship products. I tried to build momentum for the initiative. The CEO felt
-ambivalent toward the proposal because the last time the Engineering had done
+ambivalent toward the proposal because the last time that Engineering had done
 that under the leadership of Architect Guy and Evangelist Guy, they
 had gone dark for almost a year before they produced something usable. I could
 understand that. I went to the Sales Guy and the Professional Services Guy.
@@ -328,13 +328,13 @@ module for the bread-and-butter application. We did this because we worked
 without artifice. We valued our loyalty to one another and to the success of
 the project.
 
-Product Marketing Lady is one sharp cookie with politicking on the brain. I
+Product Marketing Lady was one sharp cookie with politicking on the brain. I
 should have listened more closely to her advice. 
 
-Intellectual Property Guy knows so much about IP that I wondered why he even
-worked for the same company. He has worked in some of the most cut-throat
-companies in America with some of the most cut-throat attorneys around the
-world. I should have taken his advice about squashing my opponents.
+Intellectual Property Guy knew so much about IP that I couldn't fathom his
+presence at DataCert. He worked in some of the most cut-throat
+companies in America with some of the most cut-throat attorneys from around
+the world. I should have taken his advice about squashing my opponents.
 
 ### Back to failure: dodging the blame
 
@@ -350,8 +350,8 @@ could render it.
 
 **What I should have done:** I should have countered this attack by
 managing up, better. Sometimes, the only thing you can do is run to Daddy, in
-this case, the CEO. I would have spent more time with him to build my
-reputation instead of letting it get sullied.
+this case, the CEO. I should have spent more time with him to reinforce my
+positive reputation instead of letting it get sullied.
 
 ### My fourth step toward failure: pacifism
 
@@ -376,8 +376,8 @@ I tried to help people that wanted a new job or got axed because they didn't
 stay under New CTO Guy and R&D Director Guy.
 
 **What I should have done:** At this point, I probably couldn't extricate
-myself from the intolerable situation. At this point, the best thing would
-bring a keg in on a Friday afternoon and drink with my coworkers while wishing
+myself from the intolerable situation. The best thing would I could do: bring
+a keg in on a Friday afternoon and drink with my coworkers while wishing
 them a fond farewell.
 
 ### Postscript
@@ -394,13 +394,12 @@ Architect/New CTO Guy continues his work there. Why shouldn't he? He has so
 many stock options with the company that he has to ride that pony until
 IPO. Otherwise, his effort will equal naught.
 
-David the Engineer still works with Chris the CTO as the VP of R&D.
+MIT Guy still works with Architect/New CTO Guy as the VP of R&D.
 
 ## Ouch, that was painful
 
-I still smart from the experience. The people that I don't see anymore, the
-smart, funny, driven people, it saddens me that we don't work together
-anymore.
+I still smart from the experience. I lost the working with those smart, funny,
+driven people.
 
 Unfortunately, I can't deflect the blame. It squarely rests on my shoulders.
 
