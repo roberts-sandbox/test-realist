@@ -127,7 +127,7 @@ pre, code {
 	text-align: center;
 }
 
-.main .content .clearnone {
+.main .content .clearnone, .main .content .clearnone p {
 	clear: none;
 }
 
