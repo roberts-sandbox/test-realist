@@ -3,7 +3,7 @@ layout: post
 title:  MembershipUser SchmembershipUser
 tags:   ood
 
-synopsis: In which I talk very briefly about my dislike for System.Web.Security.MembershipUser.
+synopsis: In which I rant very briefly about my dislike for System.Web.Security.MembershipUser.
 ---
 
 # {{ page.title }}
