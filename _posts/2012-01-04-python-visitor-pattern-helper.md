@@ -16,8 +16,8 @@ synopsis: In which I implement the visitor pattern in Python with decorators.
 I'm a fan of the visitor pattern for its emulation of dynamic dispatch and its
 ability to extend functionality of a tree of objects.
 
-In lanugages that support method overloading, the visitor pattern tends to
-fall apart. Python is one of those languages. So, in an effort to have the
+In lanugages that do not support method overloading, the visitor pattern tends
+to fall apart. Python is one of those languages. So, in an effort to have the
 same effect in Python, here's some code that does that. I'm just amazed at how
 few lines it takes to create this effect.
 
