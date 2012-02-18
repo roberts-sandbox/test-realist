@@ -54,7 +54,7 @@ I don't like homegrown IDEs.
 They're slow. They're feature-poor. They've got that collection of
 bad-usability problems. They make my fingers ache from switching from keyboard
 to mouse to keyboard to mouse. They don't represent the polished
-state-of-the-art you find in <your fav IDE/text editor>.
+state-of-the-art you find in &lt;your fav IDE/text editor&gt;.
 
 I'd rather have two instances of Notepad++ than a homegrown IDE.
 
