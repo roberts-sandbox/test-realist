@@ -17,8 +17,7 @@ The entertaining and amusing **winky99** recently tweeted at me.
 
 <blockquote style="border: 1px solid #CCC; padding: 4px;" class="twitter-tweet"><p>@<a href="https://twitter.com/realistschuckle">realistschuckle</a> Should we quit saying MVC when most implementations are MVP? Or agile when actually it is scrum? Communication &gt; purity</p>&mdash; Scott Stevenson (@winky99) <a href="https://twitter.com/winky99/status/174497998523478017" data-datetime="2012-02-28T14:15:39+00:00">February 28, 2012</a></blockquote>
 
-This came from a comment that he made regarding a post by Rob Conery. So, I
-went to look at Rob's article. I have to disagree with his assertion that
+This came from a comment that he made regarding a post by Rob Conery. I have to disagree with his assertion that
 "communication > purity" primarily because precise communication is pure
 communication. We develop specialized languages with unambiguous terms just so
 we can communicate with one another clearly.
