@@ -22,7 +22,7 @@ site now looks correct in your silly browser.
 What did I do? I added the "Hey, IE! This is HTML5! Deal with it!" script. It
 looks like this.
 
-<% highlight javascript %>
+{% highlight javascript %}
 (function(){
   var html5elmeents = "address|article|aside|audio|canvas|" +
                       "command|datalist|details|dialog|" +
@@ -33,7 +33,7 @@ looks like this.
     document.createElement(html5elmeents[i]);
   }
 })();
-<% endhighlight %>
+{% endhighlight %}
 
 IE will apply styles to the elements if you define them in the DOM as a
 "valid" element.
