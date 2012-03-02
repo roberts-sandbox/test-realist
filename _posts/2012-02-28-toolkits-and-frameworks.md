@@ -94,7 +94,7 @@ the apostolic Gang of Four. From _Design Patterns_:
 
 > Not only can you build applications faster as a result, but the applications
 > have similar structures.They are easier to maintain, and they seem more
-> consistent o their users. On the other hand, you lose some creative freedom,
+> consistent to their users. On the other hand, you lose some creative freedom,
 > since many design decisions have been made for you.
 
 > If applications are hard to design, and toolkits are harder, then frameworks
