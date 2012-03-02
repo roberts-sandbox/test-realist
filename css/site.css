@@ -197,6 +197,9 @@ ul.nomargin ul {
 	margin-bottom: 0;
 }
 
+article, aside, footer, header, hgroup, nav, section {
+	display: block;
+}
 
 /* PYGMENTIZE */
 .hll { background-color: #ffffcc }
