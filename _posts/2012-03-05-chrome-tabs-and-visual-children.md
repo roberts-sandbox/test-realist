@@ -109,7 +109,7 @@ protected override Size MeasureOverride(Size availableSize)
 At this point, I really thought it would work. I've included the add button in
 the measure/arrange cycle.
 
-It did not work. Sadness descended upon me like a murder of ravens. :(
+It did not work. Sadness descended upon me like a unkindness of ravens. :(
 
 Then, hope struck me. I found the ``Visual.AddVisualChild`` method! Woot! I
 added a call in the constructor to add the button as a visual child. And...
