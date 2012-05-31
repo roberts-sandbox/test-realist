@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  excuse911.org Coming Soon!
+title:  excuse911.com Coming Soon!
 tags:   borax.js
 
 synopsis: That's SOOOO 1999!
@@ -23,7 +23,7 @@ domain name, they would plaster a big "UNDER CONSTRUCTION" or "COMING SOON"
 page to announce and reassure that something relevant would one day appear.
 Well, retro guy that I am, I've done the same thing.
 
-If you head over to [excuse911.org](http://excuse911.org "excuse911.org"),
+If you head over to [excuse911.com](http://excuse911.com "excuse911.com"),
 you'll see the coming soon page for the
 [borax.js](https://github.com/realistschuckle/boraxjs)-powered Web site that
 I've decided to use for real-world testing the library.
@@ -41,4 +41,4 @@ standards-like, the definition of REST encompasses so much more than
 originally intended.
 
 So, onward and onward. And, don't forget, when you need an excuse in a clinch,
-you can always turn to [excuse911.org](http://excuse911.org "excuse911.org").
+you can always turn to [excuse911.com](http://excuse911.com "excuse911.com").
