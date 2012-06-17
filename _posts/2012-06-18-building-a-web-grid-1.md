@@ -41,7 +41,7 @@ needs for this demo. The data grid had to
 * comply with the jQuery UI CSS framework
 * have read-only functionality for cells, rows, and tables
 * have column resizing
-* handle fixed widths
+* handle fixed widths and heights
 * have fixed headers
 * have a pluggable editor architecture
 * and work with HTML tables and not from a JavaScript data store
@@ -56,7 +56,7 @@ For one reason or another, the grids that I've used in the past failed to meet
 one or another of these needs: jqGrid, ExtJs Grid v3 and v4, SlickGrid,
 dojox.grid, and the DataTables from YUI 2 and YUI 3.
 
-## If I can't find it, I'll build it
+## If I can't find it, I'll build it: grijq
 
 That's the mantra of software developers everywhere. And, I believe it. Last
 year I built a fixed header grid for my former employer which garnered a lot
@@ -84,3 +84,12 @@ Thursday
 
 Friday
 : Creating a pluggable editor system
+
+Remember, **grijq** does not promise feature parity with the grids listed
+above. I designed **grijq** as an eventing and interaction layer. It should
+tie into a rendering system. I like the cleanliness of separating those two
+concerns: one thing renders HTML and another handles the interactivity with
+the user. In the
+[Taligent MVP](http://www.wildcrest.com/Potel/Portfolio/mvp.pdf) pattern,
+**grijq** acts as an interactor between the view (the browser) and the
+presenter (in my case, **knockout.js**).
