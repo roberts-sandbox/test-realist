@@ -58,6 +58,8 @@ dojox.grid, and the DataTables from YUI 2 and YUI 3.
 
 ## If I can't find it, I'll build it: grijq
 
+That's pronounced "gridge." The "q" is silent.
+
 That's the mantra of software developers everywhere. And, I believe it. Last
 year I built a fixed header grid for my former employer which garnered a lot
 of praise. It didn't have most of the requirements listed above; however, I
