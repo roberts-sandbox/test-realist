@@ -13,6 +13,11 @@ synopsis: In which I disucss the scrolling in grijq.
 
 -----
 
+**Update**: Last night I added a new example for
+[grijq](http://curtis.schlak.com/grijq) that demonstrates the different
+options available for the **grijq** widget. You can find it at
+[All the options](http://curtis.schlak.com/grijq/examples/all-the-options.html).
+
 ![Mockup for scrolling functionality](/img/scroll-mockup.png)
 {: .center }
 
