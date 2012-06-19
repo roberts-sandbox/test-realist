@@ -242,3 +242,5 @@ less time for the widget to initialize. I like that.
 Tomorrow's entry will address the column resizing. I don't think that you'll
 find anything too crazy in that entry. It does show the ease with which you
 can do cool things with a little jQuery and a modern browser.
+
+
