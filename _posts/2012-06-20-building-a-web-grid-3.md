@@ -13,6 +13,11 @@ synopsis: In which I disucss the column resizing in grijq.
 
 -----
 
+**Update**: Last night I added a new example for
+[grijq](http://curtis.schlak.com/grijq) that demonstrates its integration with
+knockout.js. You can find it at
+[Simple knockout.js integration](http://curtis.schlak.com/grijq/examples/simple-knockout-integration.html).
+
 I found that implementing column resizing really took a little code and some
 care with respecting the layout of the header contents. The following code
 listing shows the extracts of the JavaScript that control column resizing.
