@@ -140,7 +140,12 @@ $('#some-table').grijq({
 });
 {% endhighlight %}
 
-And you get this handsome devil.
+And you get this handsome devil. It's a working grid, right there. Click on
+a cell. Type 'l' or 'm' or 's'. Press 'F2'.  (And, the fact that it doesn't
+keep its changed value is by design. The grid isn't broken. Check out the
+example
+[simple knockout integration](http://curtis.schlak.com/grijq/examples/simple-knockout-integration.html)
+to see how to persist values.)
 
 <table id="some-table" width="300">
   <colgroup><col width="300" /></colgroup>
