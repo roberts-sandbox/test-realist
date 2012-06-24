@@ -1,74 +1,14 @@
 ---
+layout:  page
+fnav:    View all <strong>Ramblings</strong>
+furl:    /blogs.html
 ---
-<!DOCTYPE html>
-<html>
-	<head>
-		<link type="application/atom+xml" rel="alternate" href="atom.xml"/>
-		<link type="text/css" rel="stylesheet" href="/css/base.css">
-		<link type="text/css" rel="stylesheet" href="/css/site.css">
-		<title>curtis@schlak.com</title>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="/scripts/site.js"></script>
-	</head>
-	<body>
-		<div class="main">
-			<header class="top yui3-g">
-				<header class="yui3-u-1-3">
-					<h1>curtis@schlak.com</h1>
-				</header>
-				<nav class="top yui3-u-2-3">
-					<ul>
-						<li>Home</li>
-						<li><a href="/blogs.html">Ramblings</a></li>
-						<li><a href="/atom.xml">Atom</a></li>
-						<li><a href="/grijq">grijq</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section class="big-list-holder yui3-g front-page">
-				{% for post in site.posts limit:6 %}
-					<section class="clickable yui3-u-1-3">
-						<article class="post-summary">
-							<p class="date front-page">{{ post.date | date_to_string }}</p>
-							<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-							<p>{{ post.synopsis }}</p>
-						</article>
-					</section>
-				{% endfor %}
-			</section>
-			<section class="yui3-g middle">
-				<section class="yui3-u-1-3">
-					<a href="http://openclipart.org/detail/170353/horace-the-alien-by-realistschuckle-170353">
-						<img height="252" width="252" src="/img/alien.png">
-						<figcaption>Now abailable on openclipart.org</figcaption>
-					</a>
-				</section>
-				<section class="yui3-u-1-3">
-					<img height="252" width="252" src="/img/doctor.png">
-				</section>
-				<section class="yui3-u-1-3">
-					<img height="252" width="252" src="/img/teen.png">
-				</section>
-			</section>
-			{% include copyright.html %}
-		</div>
-	</body>
-	<script type="text/javascript">
-		var developer = location.href.indexOf('curtis.schlak.com') == -1 || location.href.indexOf('/drafts/') > -1;
-		if(!developer) {
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-28706752-1']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		}
-	</script>
-</html>
+{% for post in site.posts limit:10 %}
+	<section class="clickable">
+		<article class="post-summary">
+			<p class="date front-page">{{ post.date | date_to_string }}</p>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p>{{ post.synopsis }}</p>
+		</article>
+	</section>
+{% endfor %}

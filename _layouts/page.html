@@ -24,29 +24,14 @@
         <p>Code. Cartoons. Curtis.</p>
         <nav>
           <ul>
-            <li><a href="/">Head back <strong>Home</strong></a></li>
+            <li><a href="{{ page.furl }}">{{ page.fnav }}</a></li>
             <li><a href="/atom.xml">Subscribe to <strong>Atom</strong></a></li>
             <li><a href="http://curtis.schlak.com/grijq">Explore <strong>grijq</strong></a></li>
           </ul>
         </nav>
       </header>
       <section>
-				<nav class="post-nav"> 
-					<div class="prev-post"> 
-						{% if page.previous.url %} 
-							<a rel="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
-						{% endif %} 
-					</div> 
-					<div class="next-post"> 
-						{% if page.next.url %} 
-							<a rel="next" href="{{page.next.url}}">{{page.next.title}} &raquo; </a> 
-						{% endif %} 
-					</div> 
-				</nav> 
         {{ content }}
-      </section>
-      <section>
-      	<div id="disqus_thread"></div>
       </section>
       {% include copyright.html %}
     </div>
@@ -64,22 +49,6 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
       }
-	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	    var disqus_shortname = 'curtisschlaksblog'; // required: replace example with your forum shortname
-	    var disqus_developer = location.href.indexOf('curtis.schlak.com') == -1 || location.href.indexOf('/drafts/') > -1;
-	    var disqus_title = '{{ page.title | replace:'&#39;','' }}';
-	    var disqus_identifier = '{{ page.url }}';
-
-	    /* * * DON'T EDIT BELOW THIS LINE * * */
-	    (function() {
-	    	if(!disqus_developer) {
-		        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    	} else {
-	    		document.getElementById("disqus_thread").innerHTML = disqus_title;
-	    	}
-	    })();
     </script>
   </body>
 </html>
