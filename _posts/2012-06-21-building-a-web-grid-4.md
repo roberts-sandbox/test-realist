@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Building a Web Grid - Part 4
-tags:   html, jquery
+tags:   html, jquery, widget
 
 synopsis: In which I disucss navigating grijq with the keyboard.
 ---

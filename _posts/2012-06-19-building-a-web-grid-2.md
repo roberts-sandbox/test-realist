@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Building a Web Grid - Part 2
-tags:   html, jquery
+tags:   html, jquery, widget
 
 synopsis: In which I disucss the scrolling in grijq.
 ---

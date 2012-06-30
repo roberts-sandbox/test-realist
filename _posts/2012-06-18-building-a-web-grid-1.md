@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Building a Web Grid - Part 1
-tags:   html, jquery
+tags:   html, jquery, widget
 
 synopsis: In which I disucss the goals of grijq.
 ---
