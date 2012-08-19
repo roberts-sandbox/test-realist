@@ -96,5 +96,120 @@ So, why aren't we really using WebDAV for that?
 
 Oh, probably because WebDAV has an XML syntax. And, XML smells bad.
 
+# Follow Up
+
+After reading this post, @philipmatix and I exchanged a brief set of emails that
+help better illuminate this subject. Here they are.
+
+---
+
+## @philipmatix writes:
+
+So here's what I didn't quite get:
+
+> A ReST application has one or more entry points (start URIs) and hyperlinks to
+> allow the user to navigate (change states) in the application."
+
+Let me try to butcher that beautiful wording in an example. Let's go with HTML
+as media format.
+
+Say you just did `GET /foo/5`:
+
+    <h1>Foo Five</h1>
+    <a href="bars">Go here</a> to see my Bars.
+
+Alright, so you go to `GET /foo/5/bars`. But there are no Bars, so the server
+replies with:
+
+    Here are all Bars for <a href="/foo/5">Foo Five</a>:
+    <ol>
+    </ol>
+
+> Therefore, a consumer of the application should never have arrived at a point
+> in an application where a POST would not provide the correct format for the
+> resource.
+
+So what should the server have replied with to provide the client with the
+knowledge required to create a new Bar?
+
+And I guess related to that, if the server elects to send the client an
+incomplete representation (of a comprehensive entity), how would the client know
+how to create an entity with the missing part.
+
+I'm thinking if the server replies with this:
+    GET /foo/5
+    Accept: text/javascript
+
+    { "Name": "Foo Five",
+     Bars: [],
+     Baz: null
+    }
+
+Leaving aside that JSON is not truly ReSTful because it doesn't provide links
+(at least not explicitly), how would the client know what
+
+1. a new Bar would look like?
+2. a new Baz would look like?
+3. if the server doesn't send in a Baz because it's null (JSON.Net has an
+   option, default I think, to not send null properties at all) how would the
+   client ever know that Foo has a Baz?
+
+---
+
+## to which I reply:
+
+I understand your confusion and apologize that I did not make my post more
+clear.
+
+Let's say that you did `GET /foo/5/bars`. If the user should have an opportunity
+to create a bar, then a reply might look like this:
+
+    Here are all Bars for <a href="/foo/5">Foo Five</a>:
+    <ol>
+    </ol>
+    You can <a href="/foo/5/bars/new">create a new bar, too!</a>
+
+Regarding the JSONy thing, yeah, that's why JSON doesn't do ReST justice. You
+just need more info for self-description like
+[JSON Schema](http://json-schema.org). Or, you define a new MIME type that uses
+JSON as a medium of encoding but the MIME type has semantics regarding how it
+gets processed in the application (i.e., your JavaScript.)
+
+In the absence of those alternatives, the answers to the questions that you pose
+at the end of your email:
+
+1. It wouldn't know what a new Bar looks like.
+1. It wouldn't know what a new Baz looks like.
+1. It wouldn't know that a Baz exists.
+
+---
+
+## to which @philipmatix replies:
+
+So what would `GET /foo/5/bars/new` look like?
+
+---
+
+## to which I reply:
+
+Regarding `/foo/5/bars/new`
+
+In a browser browsing mode (`Accept: text/html`), it may look like a form.
+
+In a JSON call (`Accept: application/json`), it may follow the JSON schema spec.
+
+In a computer-to-computer XML call (`Accept: text/xml`), it may return an XML
+schema.
+
+In a text-only mode (`Accept: text/plain`), it may look like an instruction form
+on how to call customer service to get the thing added.
+
+In an image mode (`Accept: image/png`), it may return 406 with the list of
+`text/html`, `application/json`, `text/xml`, and `text/plain`.
+
+The first three entries would have a `POST` instruction to `/foo/5/bars` for the
+*create new resource* action. Of course, the server that receives the `POST`
+will have to handle the available formats `text/html`, `application/json`, and 
+`text/xml` as viable inputs for the *create new resource* action.
 
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
