@@ -213,3 +213,4 @@ will have to handle the available formats `text/html`, `application/json`, and
 `text/xml` as viable inputs for the *create new resource* action.
 
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
