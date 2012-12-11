@@ -28,6 +28,9 @@
             <li><a href="http://curtis.schlak.com/grijq">Explore <strong>grijq</strong></a></li>
           </ul>
         </nav>
+        <p>
+          Hey, Ken, I published this on {{ page.date | date: "%B %d, %Y" }}.
+        </p>
       </header>
       <section>
 				<nav class="post-nav"> 
@@ -42,9 +45,6 @@
 						{% endif %} 
 					</div> 
 				</nav> 
-        <p>
-          Hey, Ken, I published this on {{ page.date | date: "%B %d, %Y" }}.
-        </p>
         {{ content }}
       </section>
       <section>
