@@ -94,4 +94,3 @@ have the `Spoken` role. With that role, the `Language` can participate in
 
 An academic example, to be sure. Tomorrow, we'll get into a better example and
 build an application around it.
-
