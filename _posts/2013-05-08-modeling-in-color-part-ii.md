@@ -199,3 +199,4 @@ and laying out their flow from one to another. In that way, we can model the
 flow of information through the business processes and the features that they
 represent. Then, we'll fill out DNCs for each of the «moment-interval»s to
 complete the design portion of the classes for the athletic club software.
+
