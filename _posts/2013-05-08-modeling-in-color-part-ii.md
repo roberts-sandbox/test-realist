@@ -150,6 +150,7 @@ nouns at first blush.
 * member purchase
 * reservation
 * member arrival
+* membership
 * person
 * room
 * payment
@@ -179,6 +180,7 @@ one of the four *archetypes*.
         member purchase<br>
         reservation<br>
         member arrival<br>
+        membership<br>
         payment
       </td>
       <td>
