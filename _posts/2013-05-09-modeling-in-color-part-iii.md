@@ -40,8 +40,8 @@ offers some valuable advice.
 > When looking for Moment-Interval classes for a particular piece of software,
 > we need to consider things like significant events and activities, business
 > transactions, steps in a process, or interactions within a business
-> relationship that are within the scope [of] our software system, application,
-> or component.
+> relationship that are within the scope \[of\] our software system,
+> application, or component.
 
 In most (all?) books that discuss object-oriented design, the authors suggest
 to find the nouns to find the classes in the problem domain. As invaluable as
