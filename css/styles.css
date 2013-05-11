@@ -51,6 +51,13 @@ a small {
   display:block;
 }
 
+.caption, caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 1em;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
