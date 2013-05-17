@@ -1,4 +1,4 @@
 future: false
-exclude: vendor, bin, Gemfile, Gemfile.lock, CNAME
+exclude: [vendor, bin, Gemfile, Gemfile.lock, CNAME]
 pygments: true
 
