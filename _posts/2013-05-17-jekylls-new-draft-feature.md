@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  jekyll's New Draft Feature
+title:  jekyll&apos;s New Draft Feature
 tags:   blog, jekyll
 
 synopsis: In which I note the new feature of jekyll that I really like.
