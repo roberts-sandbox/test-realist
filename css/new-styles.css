@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700&subset=latin,latin-ext);
+
+body {
+  padding:50px;
+  color:#444;
+}
+#wrapper {
+  font:14px/1.5 "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:300;
+  padding-right: 330px;
+}
+
+#wrapper section#projects,
+#wrapper section#posts {
+  width: 48%;
+  margin-right: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#wrapper section section {
+  clear: both;
+}
+
+#wrapper section h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#wrapper section dl dd {
+  margin-bottom: 14px;
+}
+
+#wrapper section dt,
+#wrapper section article h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#wrapper section article h2 {
+  padding-right: 63px;
+}
+
+#wrapper section article p {
+  padding-bottom: 14px;
+  padding-right: 63px;
+}
+
+#wrapper section article p.date {
+  float: right;
+  width: 63px;
+  text-align: center;
+  padding-bottom: 14px;
+  margin-right: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  width: 330px;
+  padding-right: 58px;
+  position: fixed;
+  right: 0;
+}
+
+#wrapper header h1 {
+  font-size: 24px;
+}
+
+footer {
+  width: 330px;
+  padding-right: 58px;
+  position: fixed;
+  right: 0;
+  top: 115px;
+  padding-bottom: 58px;
+}
+
+@media print, screen and (max-width: 1024px) {
+  #wrapper header h1 {
+    font-size: 20px;
+  }
+
+  #wrapper {
+    font-weight:300;
+    padding-right: 0;
+  }
+
+  header {
+    width: auto;
+    padding-right: 0;
+    position: static;
+    right: 0;
+  }
+
+  footer {
+    width: auto;
+    padding-right: 0;
+    position: static;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media print, screen and (max-width: 768px) {
+  #wrapper header h1 {
+    font-size: 20px;
+  }
+
+  body {
+    word-wrap:break-word;
+  }
+
+  #wrapper {
+    font-weight:300;
+    padding-right: 0;
+  }
+
+  header {
+    width: auto;
+    padding-right: 0;
+    position: static;
+    right: 0;
+  }
+
+  footer {
+    width: auto;
+    padding-right: 0;
+    position: static;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media print, screen and (max-width: 640px) {
+  #wrapper header h1 {
+    font-size: 20px;
+  }
+
+  body {
+    padding:15px;
+  }
+
+  #wrapper {
+    padding-right: 0;
+  }
+
+  #wrapper section#projects {
+    width: 320px;
+    position: absolute;
+    left: -320px;
+  }
+
+  #wrapper section#posts {
+    width: auto;
+    display: block;
+    vertical-align: baseline;
+  }
+
+  header, footer {
+    position: static;
+    padding-right: 0;
+    width: auto;
+    padding-bottom: 0;
+  }
+
+  #wrapper section article h2 {
+    padding-left: 87px;
+    padding-right: 0;
+  }
+
+  #wrapper section article p {
+    padding-bottom: 28px;
+    padding-left: 87px;
+    padding-right: 0;
+  }
+
+  #wrapper section article p.date {
+    float: left;
+    width: 63px;
+    text-align: center;
+    padding-bottom: 28px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
