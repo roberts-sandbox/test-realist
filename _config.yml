@@ -3,3 +3,4 @@ exclude: [vendor, bin, Gemfile, Gemfile.lock, CNAME]
 pygments: true
 safe: true
 lsi: false
+markdown: kramdown
