@@ -5,14 +5,6 @@ tags:   slice-of-life
 
 synopsis: OMG! You're still here?
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Yeah, I've been consulting. I'm not a successful Web 2.0 company owner that
 sold his latest company. I'm not someone that got in on Apple at $50. Instead,
 I'm the guy that likes building software, has done it for a while for a

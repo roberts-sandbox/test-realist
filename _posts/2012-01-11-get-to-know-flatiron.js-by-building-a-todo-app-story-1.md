@@ -5,13 +5,8 @@ tags:   javascript, flatiron
 
 synopsis: "Story 1: When a user first issues a GET to /, then it creates a new session."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+This post continues the creation of a to-do list with
+[flatiron.js](http://flatironjs.org/).
 
 ## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)

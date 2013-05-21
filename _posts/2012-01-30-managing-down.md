@@ -5,14 +5,6 @@ tags:   leadership, management
 
 synopsis: In which I talk about my experiences and views of "managing down."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I have spent a lot of time thinking about leadership and what it means. I have
 heard people talk about personal and professional leadership, as if the two
 subjects require different talents or traits. I believe that they do not.

@@ -6,13 +6,8 @@ date:   2012-01-13 03:00:00
 
 synopsis: "Story 5: Each item in the task list will have a &quot;Delete&quot; link next to it so the user can remove the to-do item from the list."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+This post continues the creation of a to-do list with
+[flatiron.js](http://flatironjs.org/).
 
 ## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)

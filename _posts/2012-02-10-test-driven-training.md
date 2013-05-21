@@ -5,13 +5,6 @@ tags:   mentoring
 
 synopsis: In which I talk about the training I led, today.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
 Remember back on Monday when I said that I had to fill my week
 [with typing other stuff](/2012/02/06/busy-at-work.html)? Well, I did. I
 mostly finished my leave-behind training manual (67 pages, so far) and started

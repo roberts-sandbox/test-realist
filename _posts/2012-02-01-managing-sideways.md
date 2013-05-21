@@ -5,14 +5,6 @@ tags:   leadership, management
 
 synopsis: In which I talk about my experiences and views of "managing sideways."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 **Warning**: This post has salty language, i.e., profanity. Do not read it if
 you have cultural objections to four- and seven-letter words commonly referred
 to as "bad language."

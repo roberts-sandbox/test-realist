@@ -5,14 +5,6 @@ tags:   work ethic
 
 synopsis: A story in which I learned about intestinal fortitude.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Reading Assignment:
 [A Message to Garcia](http://gamacanada.com/newsletter/message_to_garcia.pdf)
 

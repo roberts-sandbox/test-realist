@@ -5,14 +5,6 @@ tags:   html, jquery, widget
 
 synopsis: In which I disucss navigating grijq with the keyboard.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I think this is the most interesting part of the grid. This feature required
 two different things: the ability to focus on a grid cell and the ability to
 capture navigation keys to move the selected cell.

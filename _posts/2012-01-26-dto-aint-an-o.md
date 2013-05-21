@@ -5,14 +5,6 @@ tags:   architecture
 
 synopsis: In which I express my dismay with nomenclature.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Yesterday, **ayende** posted some blog about some code with which he didn't
 agree. I read it with apathetic eyes. I really go there to read the comments
 that people leave on his blog. Opinionated people draw opinionated readers.

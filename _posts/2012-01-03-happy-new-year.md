@@ -5,14 +5,6 @@ tags:   professional development
 
 synopsis: In which 91 ways to become the coolest developer confuses me.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Today, a friend sent this link to me
 [91 Ways to Become the Coolest Developer in the World](http://pulkitarora.wordpress.com/2011/03/12/91-ways-to-become-the-coolest-developer-in-the-world/).
 He wrote, "You should read this because you're the coolest developer I know."

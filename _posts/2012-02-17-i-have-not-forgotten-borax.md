@@ -5,14 +5,6 @@ tags:   foss
 
 synopsis: In which I outline my current development plans for BORAX.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Ok, things have started to slow down in my personal and professional life. It
 seems that I have time, again, to work on BORAX.
 

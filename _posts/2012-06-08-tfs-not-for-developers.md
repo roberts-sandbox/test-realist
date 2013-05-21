@@ -5,14 +5,6 @@ tags:   splm, tfs, tfs 2010, tfs 2012
 
 synopsis: In which I temper my enthusiasm for TFS with developer hardships.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Over the past month I have taken a deep dive into the use and customization of
 Team Foundation as an application lifecycle management system. I've looked at
 both the 2010 and 2012 beta versions and, for the most part, feel admiration

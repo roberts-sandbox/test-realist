@@ -5,14 +5,6 @@ tags:   foss
 
 synopsis: In which I talk about my small contribution to flatiron/plates.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Today, more training, more test-driven training. The group of attendees
 really seems to enjoy it. Yay! Because of this, I didn't really work on
 anything else non-work related, except...

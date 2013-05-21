@@ -5,14 +5,6 @@ tags:   architecture
 
 synopsis: In which I take my friend's advice to engage in more pedagogy about REST, and the New Web programming style BORAX.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 A friend, @[optimizedchaos](https://twitter.com/#!/optimizedchaos/), over on
 Twitter, recommended that I
 [write an entry here to address HATEOAS](https://twitter.com/#!/optimizedchaos/status/160737498622984193).

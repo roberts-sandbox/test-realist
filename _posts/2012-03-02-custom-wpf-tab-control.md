@@ -5,14 +5,6 @@ tags:   GUI, widget
 
 synopsis: An introduction to a new GitHub project and a call for participation.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Yesterday, I pushed my initial import of a Google Chrome-like tab control for
 WPF to a new GitHub
 [repo](https://github.com/realistschuckle/wpfchrometabs "WPF Chrome Tabs").

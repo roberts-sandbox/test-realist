@@ -5,14 +5,6 @@ tags:   leadership, management
 
 synopsis: In which I talk about my experiences and views of "managing up."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I once had a job with Gateway Learning, Inc., the company responsible for
 Hooked On Phonics. They hired me to run their Web development and systems
 integration back during the beautiful dot-com bubble. This place, located down

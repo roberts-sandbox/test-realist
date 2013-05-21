@@ -5,14 +5,6 @@ tags:   OOD, python
 
 synopsis: In which I implement the visitor pattern in Python with decorators.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I'm a fan of the visitor pattern for its emulation of dynamic dispatch and its
 ability to extend functionality of a tree of objects.
 

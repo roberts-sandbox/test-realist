@@ -5,14 +5,6 @@ tags:   html, jquery, widget
 
 synopsis: In which I disucss the column resizing in grijq.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 **Update**: Last night I added a new example for
 [grijq](http://curtis.schlak.com/grijq) that demonstrates its integration with
 knockout.js. You can find it at

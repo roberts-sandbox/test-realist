@@ -5,14 +5,6 @@ tags:   mysql, linux
 
 synopsis: Lazy administration led to "server meltdown."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I admit: I don't pay attention to my Linux servers like I should. They have
 lulled me into a false sense of security due to their stability. This morning,
 though, my monitoring app sent an email to me. A snippet:

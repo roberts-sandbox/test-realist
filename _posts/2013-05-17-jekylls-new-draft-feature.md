@@ -5,14 +5,6 @@ tags:   blog, jekyll
 
 synopsis: In which I note the new feature of jekyll that I really like.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I just updated this site to use [jekyll](http://jekyllrb.com) v.1. It builds my
 site faster which is good during the local development of a new posting. It also
 has better messages about the build, including a "done" indicator which the

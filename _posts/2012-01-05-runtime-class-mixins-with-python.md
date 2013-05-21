@@ -5,14 +5,6 @@ tags:   OOD, python
 
 synopsis: In which I show you how to do runtime mixins for classes in Python.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Say you want to mix in a method into an existing class but can't get to the
 class' definition. In Python, you can use the following decorator to do that.
 

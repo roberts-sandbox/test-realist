@@ -5,14 +5,6 @@ tags:   javascript, flatiron
 
 synopsis: In which I walk through making a primitive to-do list Web app with flatiron.js.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 The makers of **[flatiron.js](http://flatironjs.org/)** bill it as "an
 unobtrusive framework initiative for node.js." It consists of five major
 components that the creators want to behave "isomorphically," that is,

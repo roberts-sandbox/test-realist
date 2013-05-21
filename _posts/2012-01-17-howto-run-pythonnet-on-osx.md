@@ -5,14 +5,6 @@ tags:   programming
 
 synopsis: In which I set up Python.NET with Python 2.7 and Monodevelop on Lion
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 __Install subversion__
 : I used [homebrew](http://mxcl.github.com/homebrew/).
 

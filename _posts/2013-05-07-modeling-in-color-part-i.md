@@ -5,14 +5,6 @@ tags:   OOD
 
 synopsis: The first in a series of entries talking about Modeling in Color
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Over the past six years, I've tried to apply the lessons from Eric Evans' book
 with regards to collecting requirements from customers and, then, building a
 robust object-oriented design that embodies those requirements. I have had quite

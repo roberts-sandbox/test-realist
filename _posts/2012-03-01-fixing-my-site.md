@@ -5,14 +5,6 @@ tags:   site
 
 synopsis: Holy moly!
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I started showing my blog around to some folks. They had IE8 installed. Or,
 IE7. I mean, WTF, right?
 

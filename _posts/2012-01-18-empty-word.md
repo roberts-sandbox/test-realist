@@ -5,14 +5,6 @@ tags:   qol
 
 synopsis: In which I speak an empty word.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 The agile dream: 40-hour work weeks. If you work more than 40 hours, don't do
 it two weeks in a row.
 

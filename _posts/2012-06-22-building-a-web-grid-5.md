@@ -5,14 +5,6 @@ tags:   html, jquery, widget
 
 synopsis: In which I disucss the editors in grijq.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I wanted to have a "pluggable" editor system for the grid so programmers
 could customize the widgets that appear in the cell when editing begins. This
 post discusses how to create a custom editor and use it in

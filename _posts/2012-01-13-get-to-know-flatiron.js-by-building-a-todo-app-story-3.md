@@ -6,13 +6,8 @@ date:   2012-01-13 01:00:00
 
 synopsis: "Story 3: When a user POSTs a form to /, it creates a new ToDo item, adds it to the session, and redirects to /."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+This post continues the creation of a to-do list with
+[flatiron.js](http://flatironjs.org/).
 
 ## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)

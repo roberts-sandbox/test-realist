@@ -5,14 +5,6 @@ tags:   javascript, flatiron, plates
 
 synopsis: In which we revisit the **plates** functionality.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Back in
 [Story 4](../13/get-to-know-flatiron.js-by-building-a-todo-app-story-4.html),
 we used **plates** to generate the HTML that we used. It seems that since I

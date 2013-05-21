@@ -5,14 +5,6 @@ tags:   lifestyle
 
 synopsis: In which I tell you to be quiet.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I'm reading [Inferno](http://books.google.com/books?isbn=0804121060) by Dan
 Brown of [The Da Vinci Code](http://books.google.com/books?isbn=9780307277671)
 fame.

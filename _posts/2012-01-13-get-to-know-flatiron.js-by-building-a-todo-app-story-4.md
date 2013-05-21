@@ -6,13 +6,8 @@ date:   2012-01-13 02:00:00
 
 synopsis: "Story 4: When a user issues a GET to / after session creation, the HTML page continues to show the input and button while showing the task list beneath it."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+This post continues the creation of a to-do list with
+[flatiron.js](http://flatironjs.org/).
 
 ## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)

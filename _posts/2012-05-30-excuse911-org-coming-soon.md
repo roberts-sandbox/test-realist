@@ -5,14 +5,6 @@ tags:   borax.js
 
 synopsis: That's SOOOO 1999!
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Remember back in 1999 when the Internet still had a shine of youth, a time
 when Web sites still used texture-based background images and the ``<layer>``
 tag still had meaning? When Web sites looked

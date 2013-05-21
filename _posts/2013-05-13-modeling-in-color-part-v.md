@@ -5,13 +5,10 @@ tags:   OOD
 
 synopsis: In which I present my full model for the athletic club exercise.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+In this article, I show my total design for the athletic club exercise. You
+could have totally figured that out from the synopsis for this post; however,
+since you, dear reader, only remember 30% of the crap that you read, I've now
+upped my chances of sticking in your cerebrum just a little bit longer.
 
 ## The requirements
 

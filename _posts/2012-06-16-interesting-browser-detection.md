@@ -5,14 +5,6 @@ tags:   javascript
 
 synopsis: Look at window.HTMLElement
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Often, I need to change the way I apply some CSS due to the different box
 models that browsers employ. Some include padding, some borders, some other
 stuff in their calculations of widths during their layout phase. I stumbled

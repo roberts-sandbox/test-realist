@@ -5,16 +5,8 @@ tags:   crap
 
 synopsis: In which I list the contents of my professional bookshelf.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 <style type="text/css">
-li{margin-bottom: 1em;}
+#post li{margin-bottom: 1em;}
 </style>
 
 Sixty-six books.

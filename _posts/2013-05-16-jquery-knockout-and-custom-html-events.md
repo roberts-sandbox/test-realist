@@ -5,14 +5,6 @@ tags:   javascript, jquery, jquery ui, knockout.js
 
 synopsis: In which I reveal a solution to the fundamental problem of unifying the libraries.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Ok, so, I'm a purist. I like things to do their job, do it well, and not reach
 beyond their boundaries of functionality. In this case, I refer to
 [jQuery UI](http://jqueryui.com) and [knockout.js](http://knockoutjs.com) as the

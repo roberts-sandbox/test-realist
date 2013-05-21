@@ -5,14 +5,6 @@ tags:   ood
 
 synopsis: In which I rant very briefly about my dislike for System.Web.Security.MembershipUser.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Yeah, it's bad. Really bad.
 
 [bray](http://bryanray.net) and I just spent a couple of hours looking at the

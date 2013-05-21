@@ -11,46 +11,51 @@
     <link type="application/atom+xml" rel="alternate" href="atom.xml"/>
     <link rel="stylesheet" href="/css/cssreset-min.css">
     <link rel="stylesheet" href="/css/cssfonts-min.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/new-styles.css">
     <link rel="stylesheet" href="/css/pygment_trac.css">
     <!--[if lt IE 9]>
     <script src="/scripts/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <div class="wrapper">
+  <body class="yui3-cssreset yui3-cssfonts">
+    <div id="wrapper">
       <header>
         <h1>curtis@schlak.com</h1>
-        <nav>
+        <nav id="main-nav">
           <ul>
-            <li><a href="/">Head back <strong>Home</strong></a></li>
-            <li><a href="/atom.xml">Subscribe to <strong>Atom</strong></a></li>
-            <li><a href="http://curtis.schlak.com/grijq">Explore <strong>grijq</strong></a></li>
+            <li><a href="/">take me somewhere else...</a></li>
           </ul>
         </nav>
-        <p>
-          Hey, Ken, I published this on {{ page.date | date: "%B %d, %Y" }}.
-        </p>
       </header>
-      <section>
-				<nav class="post-nav"> 
+      <section id="post">
+				<nav class="post-nav ui-helper-clearfix"> 
 					<div class="prev-post"> 
 						{% if page.previous.url %} 
 							<a rel="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
 						{% endif %} 
 					</div> 
+          &nbsp;
 					<div class="next-post"> 
 						{% if page.next.url %} 
 							<a rel="next" href="{{page.next.url}}">{{page.next.title}} &raquo; </a> 
 						{% endif %} 
 					</div> 
 				</nav> 
-        {{ content }}
+
+        <h1>{{ page.title }}</h1>
+
+        <p class="subtitle">{{ page.synopsis }}</p>
+
+        <hr>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
       </section>
       <section>
       	<div id="disqus_thread"></div>
       </section>
-      {% include copyright.html %}
+      {% include new-copyright.html %}
     </div>
     <script src="/scripts/scale.fix.js"></script>
     <script type="text/javascript">

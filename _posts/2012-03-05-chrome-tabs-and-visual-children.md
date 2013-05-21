@@ -5,14 +5,6 @@ tags:   GUI, widget
 
 synopsis: A rename, some functionality, and an interesting feature of WPF.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I've renamed the classes, projects, and solution for the project because I
 didn't want to infringe on Google's IP. Thank you, **philipmat**, for pointing
 out their trademark and thank you, Google, for letting me search out the

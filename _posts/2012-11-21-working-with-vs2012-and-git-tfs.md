@@ -5,14 +5,6 @@ tags:   visual studio 2012, git-tfs
 
 synopsis: Getting the now-hidden check-in policy to work with git-tfs.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Once upon a time, the "Require a Changeset Comments" check-in policy for TFS
 came in the TFS Power Tools. In Visual Studio 2012, they rolled that policy into
 the Visual Studio distribution. Now, the check-in tool from git-tfs cannot find

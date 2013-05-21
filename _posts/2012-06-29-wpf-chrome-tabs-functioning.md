@@ -5,14 +5,6 @@ tags:   GUI, widget, WPF, tabs
 
 synopsis: Finally, a usable custom WPF tab control.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Back on [2 March](/2012/03/02/custom-wpf-tab-control.html) and
 [3 March](/2012/03/05/chrome-tabs-and-visual-children.html), I wrote about the
 WPF tab control based on the tabs found in the Google Chrome browser that I

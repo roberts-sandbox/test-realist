@@ -5,14 +5,6 @@ tags:   OOD
 
 synopsis: In which I discuss the "timeline" core to modeling in color.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 In **Java Modeling in Color with UML**, the authors define the «moment-interval»
 archetype as
 

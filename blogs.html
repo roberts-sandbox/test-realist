@@ -1,14 +1,64 @@
 ---
-layout:  page
-fnav:    Head back <strong>Home</strong>
-furl:    /
+layout: nil
 ---
-{% for post in site.posts %}
-<section class="clickable">
-	<article class="post-summary">
-		<p class="date front-page">{{ post.date | date_to_string }}</p>
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		<p>{{ post.synopsis }}</p>
-	</article>
-</section>
-{% endfor %}
+<!doctype html>
+<html>
+  <head>
+    <title>realists|chuckle and i be one</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link type="application/atom+xml" rel="alternate" href="atom.xml"/>
+    <link rel="stylesheet" href="/css/cssreset-min.css">
+    <link rel="stylesheet" href="/css/cssfonts-min.css">
+    <link rel="stylesheet" href="/css/new-styles.css">
+    <link rel="stylesheet" href="/css/pygment_trac.css">
+    <!--[if lt IE 9]>
+    <script src="/scripts/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body class="yui3-cssreset yui3-cssfonts">
+    <div id="wrapper">
+      <header>
+        <h1>curtis@schlak.com</h1>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="/">take me somewhere else...</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="posts-all">
+        <h1>last 10 blog posts</h1>
+        {% for post in site.posts %}
+          <section class="clickable">
+          	<article class="post-summary">
+          		<p class="date front-page">{{ post.date | date_to_string }}</p>
+          		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          		<p class="subtitle">{{ post.synopsis }}</p>
+              {{ post.excerpt }}
+          	</article>
+          </section>
+        {% endfor %}
+      </section>
+      {% include new-copyright.html %}
+    </div>
+    <script src="/scripts/scale.fix.js"></script>
+    <script src="/scripts/json2-min.js"></script>
+    <script src="/scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+      var developer = location.href.indexOf('curtis.schlak.com') == -1 || location.href.indexOf('/drafts/') > -1;
+      if(!developer) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28706752-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      }
+    </script>
+  </body>
+</html>

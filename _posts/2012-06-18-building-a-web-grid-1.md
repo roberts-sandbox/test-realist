@@ -5,14 +5,6 @@ tags:   html, jquery, widget
 
 synopsis: In which I disucss the goals of grijq.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Last week I needed to convince some folks that the World Wide Web can act as a
 deployment platform for enterprise applications. They had some bad experiences
 with Web applications a couple of years ago and, since that time, felt
@@ -31,21 +23,30 @@ people have adopted the Religion of the Grid.
 To quell their unease, I went in search of a data grid that would meet my
 needs for this demo. The data grid had to
 
-* gracefully handle thousands of cells
-* allow keyboard-only input to:
-  * activate cells with arrow keys
-  * activate cells with TAB and ENTER keys
-  * start editing cell content by
-    * pressing F2 to edit at the end of the cell
-    * start typing to replace the entire cell's content
-* comply with the jQuery UI CSS framework
-* have read-only functionality for cells, rows, and tables
-* have column resizing
-* handle fixed widths and heights
-* have fixed headers
-* have a pluggable editor architecture
-* and work with HTML tables and not from a JavaScript data store
-{: .nomargin }
+<ul>
+  <li>gracefully handle thousands of cells</li>
+  <li>
+    allow keyboard-only input to:
+    <ul>
+      <li>activate cells with arrow keys</li>
+      <li>activate cells with TAB and ENTER keys</li>
+      <li>
+        start editing cell content by
+        <ul>
+          <li>pressing F2 to edit at the end of the cell</li>
+          <li>start typing to replace the entire cell's content</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>comply with the jQuery UI CSS framework</li>
+  <li>have read-only functionality for cells, rows, and tables</li>
+  <li>have column resizing</li>
+  <li>handle fixed widths and heights</li>
+  <li>have fixed headers</li>
+  <li>have a pluggable editor architecture</li>
+  <li>and work with HTML tables and not from a JavaScript data store</li>
+</ul>
 
 That last requirement emerges from a vested interest in using
 [knockout.js](http://knockoutjs.com) for binding data in the browser. I really

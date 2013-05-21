@@ -5,14 +5,6 @@ tags:   crap
 
 synopsis: In which I use my blog as a Web log.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 00:13 : Finish diagram reorganization for co-worker
 
 00:15 : Sent diagram in three formats by email to co-worker

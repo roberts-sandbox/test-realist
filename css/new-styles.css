@@ -4,6 +4,11 @@ body {
   padding:50px;
   color:#444;
 }
+
+#wrapper a:visited {
+  color: #444;
+}
+
 #wrapper {
   font:14px/1.5 "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:300;
@@ -11,10 +16,119 @@ body {
 }
 
 #wrapper section#projects,
+#wrapper section#post,
 #wrapper section#posts {
   margin-right: 1%;
   display: inline-block;
   vertical-align: top;
+}
+
+#wrapper section#post {
+  display: block;
+  padding-right: 18px;
+}
+
+#wrapper section#post h1 {
+  font-size: 28px;
+  clear: both;
+}
+
+#wrapper section#post .prev-post {
+  float: left;
+}
+
+#wrapper section#post .next-post {
+  float: right;
+}
+
+#wrapper section#post .post-nav {
+  margin-bottom: 20px;
+}
+
+#wrapper section#post .post-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#wrapper section#post .post-content table thead th {
+  background-color: #333;
+  color: white;
+  vertical-align: bottom;
+}
+
+#wrapper section#post .post-content table thead th,
+#wrapper section#post .post-content table tbody td {
+  border: 1px solid #999;
+  padding: 4px;
+}
+
+#wrapper section#post .post-content p,
+#wrapper section#post .post-content div,
+#wrapper section#post .post-content ul,
+#wrapper section#post .post-content pre,
+#wrapper section#post .post-content blockquote,
+#wrapper section#post .post-content .highlight {
+  margin-bottom: 14px;
+}
+
+#wrapper section#post .post-content h1,
+#wrapper section#post .post-content h2,
+#wrapper section#post .post-content h3 {
+  margin-top: 1em;
+}
+
+#wrapper section#post .post-content h2 {
+  font-size: 20px;
+}
+
+#wrapper section#post .post-content blockquote {
+  margin: 2em 60px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+#wrapper section#post .post-content blockquote:before {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -40px;
+  top: -40px;
+  color: #CCC;
+}
+
+#wrapper section#post .post-content pre,
+#wrapper section#post .post-content .highlight {
+  background-color: #EEE;
+  border: 1px solid #999;
+  padding: 8px;
+}
+
+#wrapper section#post .post-content .highlight pre {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper section#post .post-content ul,
+#wrapper section#post .post-content ol {
+  margin-left: 40px
+}
+
+#wrapper section#post .post-content ol li,
+#wrapper section#post .post-content ul li {
+  display: list-item;
+  list-style-position: outside;
+}
+
+#wrapper section#post .post-content ul li {
+  list-style-type: disc;
+}
+
+#wrapper section#post .post-content ol li {
+  list-style-type: decimal;
 }
 
 #wrapper section#projects {
@@ -25,6 +139,17 @@ body {
   width: 56%;
 }
 
+#wrapper section#posts-all {
+  width: 'auto';
+  padding-right: 28px;
+}
+
+#wrapper section#posts-all .subtitle,
+#wrapper section#post .subtitle {
+  font-style: italic;
+  padding-bottom: 0;
+}
+
 #wrapper section section {
   clear: both;
 }
@@ -32,6 +157,10 @@ body {
 #wrapper section h1 {
   font-size: 18px;
   font-weight: 700;
+}
+
+#wrapper section#posts h1 {
+  padding-left: 87px;
 }
 
 #wrapper section dl dd {
@@ -81,8 +210,12 @@ footer {
   padding-right: 58px;
   position: fixed;
   right: 0;
-  top: 115px;
+  top: 145px;
   padding-bottom: 58px;
+}
+
+#disqus_thread {
+  margin-top: 42px;
 }
 
 @media print, screen and (max-width: 1024px) {
@@ -175,6 +308,10 @@ footer {
     width: auto;
     padding-bottom: 0;
   }
+
+  #disqus_thread {
+    display: none;
+  }
 }
 
 @media print {
@@ -182,5 +319,9 @@ footer {
     padding:0.4in;
     font-size:12pt;
     color:#444;
+  }
+
+  #disqus_thread {
+    display: none;
   }
 }

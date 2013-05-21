@@ -5,14 +5,6 @@ tags:   job
 
 synopsis: A small post excusing my small post and a little bug in knockout.js.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I have one more document to write for my current client. Because of that, I
 really just don't have time to write, today, in this blog. Not only that, but
 I don't really have anything interesting to write. Except this thing I found

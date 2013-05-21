@@ -5,14 +5,6 @@ tags:   html, jquery, widget
 
 synopsis: In which I disucss the scrolling in grijq.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 **Update**: Last night I added a new example for
 [grijq](http://curtis.schlak.com/grijq) that demonstrates the different
 options available for the **grijq** widget. You can find it at

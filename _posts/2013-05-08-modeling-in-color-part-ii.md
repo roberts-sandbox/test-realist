@@ -5,14 +5,6 @@ tags:   OOD
 
 synopsis: Considering the first step of modeling in color.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 [Yesterday's post]({{page.previous.url}}) kind of sucked. Sorry about that. It
 seems that my perishable skill of writing nears six feet under. I'll
 endeavor to make today's post more lucid, cohesive, and informative. Perhaps
@@ -192,6 +184,7 @@ one of the four *archetypes*.
         room<br>
         equipment
       </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>

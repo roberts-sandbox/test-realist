@@ -5,13 +5,8 @@ tags:   javascript, flatiron
 
 synopsis: "Story 2: When a user first issues a GET to /, it serves an HTML page that shows an entry text box for a to-do list item and a button to POST the item to /."
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
+This post continues the creation of a to-do list with
+[flatiron.js](http://flatironjs.org/).
 
 ## Previous Stories in this Series
 * [Story 0](../10/get-to-know-flatiron.js-by-building-a-todo-app-story-0.html) - [story0.zip](/assets/story0.zip)

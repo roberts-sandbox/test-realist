@@ -5,14 +5,6 @@ tags:   presenting, speaking
 
 synopsis: In which I give an example of a bullet-free presentation.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I remember using PowerPoint for the first time in my Public Speaking course at
 University in 1992. The medium of the electronic presentation, like all things
 PC, appeared new and shiny. The textbook had only a slim chapter on this

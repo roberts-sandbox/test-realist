@@ -5,14 +5,6 @@ tags:   OOD
 
 synopsis: In which I discuss identifying the «description»s, «thing»s, and «role»s in our example
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 This post concerns itself with identifying the participants in our domain model
 that we have not classified as «moment-interval»s. That means we'll look at
 «thing»s and their associated «description»s and «role»s. But first, I want to 

@@ -5,14 +5,6 @@ tags:   architecture
 
 synopsis: In which I consider Roy Fielding's definition of REpresentational State Transfer.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 *Note:* this discussion primarily centers on the HTTP; REST over other
 protocols exceeds the scope of this article.
 

@@ -5,14 +5,6 @@ tags:   mono, nunit
 
 synopsis: In which I share how to run nunit-console under mono.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I continue to program in C# even though I don't consider it my favorite
 language. The experience of starting a VM on my Macbook Pro to use Visual
 Studio 2010 on Microsoft Windows 7 quickly paled. I downloaded and installed

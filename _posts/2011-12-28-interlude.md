@@ -5,14 +5,6 @@ tags:   splm
 
 synopsis: In which I dream a little dream.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I recently met a friend of a friend that has founded a company to provide
 Building Information Modeling (BIM) software-as-a-service. He described the
 flow of information through the construction process, from architects to

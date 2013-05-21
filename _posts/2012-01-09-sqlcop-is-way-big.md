@@ -5,14 +5,6 @@ tags:   sqlcop
 
 synopsis: In which I cry, &quot;Uncle!&quot;
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Well, I've spent three weeks on
 **[sqlcop](https://github.com/realistschuckle/sqlcop)** and haven't even made
 it out of the JOIN statement. I knew writing a parser for T-SQL could take a 

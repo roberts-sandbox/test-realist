@@ -5,14 +5,6 @@ tags:   openclipart, drawing
 
 synopsis: In which I celebrate openclipart.org.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I've used [openclipart.org](http://openclipart.org "Open Clip Art") for a long
 time, I've always meant to submit something of my own. Because the site has an
 open submission policy, you can find some less-than-nice work on the site.

@@ -5,14 +5,6 @@ tags:   rest
 
 synopsis: A brief discussion on failing to create new things in ReST
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 Over on Twitter, @philipmatix just sent these tweets to me.
 
 <blockquote class="twitter-tweet"><p>. <a href="https://twitter.com/realistschuckle"><s>@</s><b>realistschuckle</b></a> in a ReSTful API how do you know what you know what you need to POST to create a new entity? Documentation?</p>&mdash; Philip Mateescu (@philipmatix) <a href="https://twitter.com/philipmatix/status/237190399343611904" data-datetime="2012-08-19T14:12:52+00:00">August 19, 2012</a></blockquote>

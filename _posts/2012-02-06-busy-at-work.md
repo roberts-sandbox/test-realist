@@ -5,14 +5,6 @@ tags:   work ethic
 
 synopsis: In which I excuse myself from my normal typing assignment.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I have the opportunity to lead some pretty big training, this Friday. In the
 spirit in which I do most everything, I have thrown myself into the position
 with abandon. I've made it 17 pages into the supplemental text that I will

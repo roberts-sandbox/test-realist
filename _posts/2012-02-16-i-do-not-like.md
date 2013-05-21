@@ -5,14 +5,6 @@ tags:   foss
 
 synopsis: In which I grouse.
 ---
-
-# {{ page.title }}
-
-{{ page.synopsis }}
-{: .subtitle }
-
------
-
 I don't like dimes.
 
 They're small. They're pathetic. They've got that ridged edge. They make my
