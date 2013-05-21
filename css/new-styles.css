@@ -81,6 +81,10 @@ body {
   font-size: 20px;
 }
 
+#wrapper section#post .post-content em {
+  font-style: italic;
+}
+
 #wrapper section#post .post-content blockquote {
   margin: 2em 60px;
   line-height: 1.45;
