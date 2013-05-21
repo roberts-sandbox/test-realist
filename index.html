@@ -61,7 +61,21 @@ layout: nil
       $(function() {
         var settings = {
               error: function(xhr, status, error) {
-                console.log(status, error);
+                if($.support.cors) {
+                  $('#projectList')
+                    .append('<div>' + status + '</div>')
+                    .append('<pre>' + error + '</pre>');
+                } else {
+                  $('#projectList')
+                    .html(
+                      '<h2>Have you thought about upgrading your browser, lately?</h2>' +
+                      '<p>I mean, really, you\'re using an antiquated piece of poo that ' +
+                      'you should retire as quickly as possible.</p>' +
+                      '<p>When I write "poo", you have a browser running chock full of ' +
+                      'security issues and couldn\'t comply with Web standards if its ' +
+                      'meager process depended on it.</p>'
+                    );
+                }
               }
             , success: function(data) {
                 var $ul = $('#projectList');
