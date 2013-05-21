@@ -12,10 +12,17 @@ body {
 
 #wrapper section#projects,
 #wrapper section#posts {
-  width: 48%;
   margin-right: 1%;
   display: inline-block;
   vertical-align: top;
+}
+
+#wrapper section#projects {
+  width: 40%;
+}
+
+#wrapper section#posts {
+  width: 56%;
 }
 
 #wrapper section section {
@@ -38,19 +45,21 @@ body {
 }
 
 #wrapper section article h2 {
-  padding-right: 63px;
+  padding-left: 87px;
+  padding-right: 0;
 }
 
 #wrapper section article p {
-  padding-bottom: 14px;
-  padding-right: 63px;
+  padding-bottom: 28px;
+  padding-left: 87px;
+  padding-right: 0;
 }
 
 #wrapper section article p.date {
-  float: right;
+  float: left;
   width: 63px;
   text-align: center;
-  padding-bottom: 14px;
+  padding-bottom: 28px;
   margin-right: 4px;
   padding-left: 10px;
   padding-right: 10px;
@@ -151,6 +160,7 @@ footer {
     width: 320px;
     position: absolute;
     left: -320px;
+    top: 0;
   }
 
   #wrapper section#posts {
@@ -164,27 +174,6 @@ footer {
     padding-right: 0;
     width: auto;
     padding-bottom: 0;
-  }
-
-  #wrapper section article h2 {
-    padding-left: 87px;
-    padding-right: 0;
-  }
-
-  #wrapper section article p {
-    padding-bottom: 28px;
-    padding-left: 87px;
-    padding-right: 0;
-  }
-
-  #wrapper section article p.date {
-    float: left;
-    width: 63px;
-    text-align: center;
-    padding-bottom: 28px;
-    margin-right: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
